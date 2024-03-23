@@ -40,4 +40,19 @@ teams_query = """
 """
 
 teams_df = pd.read_sql_query(teams_query, con)
+
+
+# MANUAL CLEAN UP
+duplicates_to_remove = [
+    ['James', 'Pollard', 'BW Ultimate'],
+    ['Max', 'Williams', 'Power Point Ultimate'],
+    ['Jonathan', 'Mast', 'Legion'],
+    ['Jordan', 'Smith', 'Capitol City Chaos'],
+]
+for record in duplicates_to_remove:
+    teams_df.drop(teams_df[
+        (teams_df['first_name'] == record[0]) & 
+        (teams_df['last_name'] == record[1]) & 
+        (teams_df['club_team'] == record[2])].index, inplace=True)
+
 teams_df.to_csv(f'{dirname}/data/club_data.csv', index=False)
