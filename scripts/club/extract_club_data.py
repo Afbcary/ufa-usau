@@ -1,6 +1,5 @@
 import pandas as pd
 import os
-import numpy as np
 import sqlite3
 
 dirname = os.path.dirname(__file__).replace("/scripts","")
@@ -29,7 +28,6 @@ teams_query = """
     ) 
     SELECT DISTINCT
         t.name as team_name,
-        t.location as team_location,
         t.gender as division,
         p.first_name,
         p.last_name,
@@ -44,4 +42,4 @@ teams_query = """
 """
 
 teams_df = pd.read_sql_query(teams_query, con)
-teams_df.to_csv(f'{dirname}/data/club_data.csv')
+teams_df.to_csv(f'{dirname}/data/club_data.csv', index=False)
