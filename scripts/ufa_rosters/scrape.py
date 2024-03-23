@@ -51,8 +51,12 @@ def getRoster(team_name: str):
 
 
 with open('data/ufa_rosters.csv', mode='r+', newline='') as csvfile:
-    writer = csv.writer(csvfile, delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    writer = csv.writer(csvfile, delimiter=',')
     for team_name in team_names:
         roster = getRoster(team_name)
         for person in roster:
-            writer.writerow([person, team_name])
+            try:
+                first_name, last_name = person.split(' ', maxsplit = 1)
+            except ValueError:
+                raise Exception(f'Failed to parse {person}')
+            writer.writerow([first_name, last_name, team_name])
