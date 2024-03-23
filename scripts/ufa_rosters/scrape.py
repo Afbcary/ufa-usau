@@ -34,13 +34,13 @@ team_names = [
     'rush',
 ]
 
-def getTeamPage(team_name: str):
+def getTeamPage(team_name: str) -> object:
     roster_page = requests.get(f'{base_team_url}/{team_name}/{players_path}')
     if (roster_page.status_code == 404):
         raise Exception(f'Team page not found for {team_name}')
     return roster_page
 
-def getRoster(team_name: str):
+def getRoster(team_name: str) -> list[str]:
     page = getTeamPage(team_name)
     soup = BeautifulSoup(page.content, 'html.parser')
     player_containers = soup.find_all('div', {'class': 'views-field-field-player-display-name'})
@@ -49,6 +49,9 @@ def getRoster(team_name: str):
         players.append(player_container.contents[1].get_text())
     return players
 
+# Brandon Van Deusen has two entries
+# keep map of entries to avoid dupes
+added = set()
 
 with open('data/ufa_rosters.csv', mode='r+', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=',')
@@ -59,4 +62,8 @@ with open('data/ufa_rosters.csv', mode='r+', newline='') as csvfile:
                 first_name, last_name = person.split(' ', maxsplit = 1)
             except ValueError:
                 raise Exception(f'Failed to parse {person}')
-            writer.writerow([first_name, last_name, team_name])
+            if f'{first_name}{last_name}{team_name}' not in added:
+                writer.writerow([first_name, last_name, team_name])
+                added.add(f'{first_name}{last_name}{team_name}')
+            else:
+                print(f'didn\'t add {first_name} {last_name} again')
