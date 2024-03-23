@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import sqlite3
 
-dirname = os.path.dirname(__file__).replace("/scripts","")
+dirname = os.path.dirname(__file__).replace("scripts/club","")
 con = sqlite3.connect(f'{dirname}/data/ultiverse/ultiverse.db')
 
 teams_query = """
@@ -27,12 +27,10 @@ teams_query = """
             AND (tn.slug LIKE '%2023%sectional%' OR tn.slug LIKE '%2023%regional%')
     ) 
     SELECT DISTINCT
-        t.name as team_name,
+        t.name as club_team,
         t.gender as division,
         p.first_name,
-        p.last_name,
-        p.name,
-        p.slug as player_slug
+        p.last_name
     FROM team_rosters t
     JOIN person_rosters pr
         ON t.roster_id = pr.roster_id
