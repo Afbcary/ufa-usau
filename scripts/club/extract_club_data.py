@@ -9,11 +9,10 @@ teams_query = """
     WITH team_rosters AS (
         SELECT DISTINCT
             t.name,
-            t.location,
             r.team_slug,
             CASE WHEN t.gender = 0 THEN 'open'
                 ELSE 'mixed'
-                END AS gender,
+                END AS division,
             r.id AS roster_id
         FROM teams t
         JOIN rosters r
@@ -24,14 +23,16 @@ teams_query = """
             1 = 1
             AND t.division = 1
             AND t.gender < 2
-            AND (tn.slug LIKE '%2023%sectional%' OR tn.slug LIKE '%2023%regional%')
-    ) 
+            AND (tn.slug LIKE '%2023%sectional%' 
+                OR tn.slug LIKE '%2023%regional%'
+                OR tn.slug = '2023-usa-ultimate-club-championships-open')
+    )
     SELECT DISTINCT
         CASE WHEN LOWER(t.name) = 'lax' THEN 'lax-senior'
             WHEN LOWER(t.name) = 'dark star' THEN 'dark star-d'
             ELSE LOWER(t.name)
             END AS club_team,
-        t.gender AS division,
+        t.division,
         p.first_name,
         p.last_name,
         CASE 

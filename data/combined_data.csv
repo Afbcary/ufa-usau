@@ -33,30 +33,30 @@ Tannon,Hedges,hustle,chain lightning,open,4.0,2211.89
 Michael,Johnson,hustle,,,,
 Brandon,Beers,hustle,alliance,open,37.0,1627.37
 Will,Bianca,hustle,,,,
-Mark,Evans,sol,,,,
+Mark,Evans,sol,doublewide,open,9.0,2106.81
 Mark,Henke,sol,,,,
-Reese,Bowman,sol,,,,
-Evan,Swiatek,sol,,,,
+Reese,Bowman,sol,doublewide,open,9.0,2106.81
+Evan,Swiatek,sol,doublewide,open,9.0,2106.81
 Eric,Brodbeck,sol,,,,
 Jake,Reinhardt,sol,,,,
 Jack,Dowling,sol,,,,
-Noah,Chambers,sol,,,,
+Noah,Chambers,sol,doublewide,open,9.0,2106.81
 Jacob,Kaplan,sol,,,,
 Nick,Loughran,sol,waterloo,mixed,30.0,1615.31
-Elliott,Moore,sol,,,,
+Elliott,Moore,sol,doublewide,open,9.0,2106.81
 Kyle,Henke,sol,,,,
 Jordan,Salazar,sol,,,,
 Mick,Walter,sol,,,,
 Brandon,Dial,sol,,,,
-Jackson,Potts,sol,,,,
+Jackson,Potts,sol,doublewide,open,9.0,2106.81
 Jake,Radack,sol,,,,
-Oliver,Fay,sol,,,,
+Oliver,Fay,sol,doublewide,open,9.0,2106.81
 Joey,Wylie,sol,,,,
-Matthew,Armour,sol,,,,
+Matthew,Armour,sol,doublewide,open,9.0,2106.81
 Mason,Zetsch,sol,stl lounar,open,17.0,1909.35
-Gavin,Babbitt,sol,,,,
+Gavin,Babbitt,sol,doublewide,open,9.0,2106.81
 Jake,Worthington,sol,,,,
-Duncan,Fitzgerald,sol,,,,
+Duncan,Fitzgerald,sol,doublewide,open,9.0,2106.81
 Joshua,Zdrodowski,sol,,,,
 Ivan,Tran,glory,sprocket,mixed,6.0,1924.96
 Jay,Clark,glory,,,,
@@ -76,7 +76,6 @@ Zach,Singer,glory,sprocket,mixed,6.0,1924.96
 Nathanial,Dick,glory,,,,
 Gustav,Haflin,glory,dig,open,7.0,2167.51
 Colin,Sunde,glory,scoop,open,32.0,1675.57
-Colin,Sunde,glory,scoop,open,253.0,48.49
 Tyler,Chan,glory,dig,open,7.0,2167.51
 Chris,Bartoli,glory,sprout,open,26.0,1745.77
 Caelan,McSweeney,glory,dig,open,7.0,2167.51
@@ -139,49 +138,49 @@ Jake,Rubin-Miller,union,,,,
 Jerry,Kelly,union,,,,
 Joe,White,union,chicago machine,open,5.0,2189.71
 Andrew,Sjogren,union,chicago machine,open,5.0,2189.71
-Alex,Atkins,summit,,,,
-Zeke,Thoreson,summit,,,,
-Jay,Froude,summit,,,,
-Atkin,Arnstein,summit,,,,
-Felix,Pronove,summit,,,,
+Alex,Atkins,summit,johnny bravo,open,8.0,2112.77
+Zeke,Thoreson,summit,johnny bravo,open,8.0,2112.77
+Jay,Froude,summit,johnny bravo,open,8.0,2112.77
+Atkin,Arnstein,summit,johnny bravo,open,8.0,2112.77
+Felix,Pronove,summit,johnny bravo,open,8.0,2112.77
 Logan,Pruess,summit,,,,
-Matt,Jackson,summit,,,,
-Jonathan,Nethercutt,summit,,,,
+Matt,Jackson,summit,johnny bravo,open,8.0,2112.77
+Jonathan,Nethercutt,summit,johnny bravo,open,8.0,2112.77
 Danny,Landesman,summit,,,,
 Sam,Goldstein,summit,shame.,mixed,1.0,2167.21
 Rodrigo,Gould Rodriguez,summit,,,,
-Seth,Faris,summit,,,,
+Seth,Faris,summit,johnny bravo,open,8.0,2112.77
 Chance,Cochran,summit,,,,
-Saeed,Semrin,summit,,,,
+Saeed,Semrin,summit,johnny bravo,open,8.0,2112.77
 Dennis,Bechis,summit,,,,
 Charles,Cannon,summit,,,,
 Thomas,Brewster,summit,shame.,mixed,1.0,2167.21
-Connor,Olson,summit,,,,
-Mathieu,Agee,summit,,,,
+Connor,Olson,summit,johnny bravo,open,8.0,2112.77
+Mathieu,Agee,summit,johnny bravo,open,8.0,2112.77
 Tyler,Nguyen,summit,,,,
 David,Yu,summit,flight club,mixed,28.0,1635.27
 Sandford,Brown,summit,,,,
 Sten,Larson,summit,,,,
-Kai,Marshall,summit,,,,
+Kai,Marshall,summit,johnny bravo,open,8.0,2112.77
 Cody,Johnston,summit,,,,
 Chris,Ward,summit,,,,
 Nanda,Min-Fink,summit,,,,
 Nicholas,Snuszka,summit,shame.,mixed,1.0,2167.21
-Noah,Coolman,summit,,,,
-Erik,Hotaling,summit,,,,
+Noah,Coolman,summit,johnny bravo,open,8.0,2112.77
+Erik,Hotaling,summit,johnny bravo,open,8.0,2112.77
 Aylen,Learned,summit,,,,
 Jeremy,Knopf,summit,truck stop,open,1.0,2499.23
-Nathan,Buchholz,summit,,,,
-Quinn,Finer,summit,,,,
+Nathan,Buchholz,summit,johnny bravo,open,8.0,2112.77
+Quinn,Finer,summit,johnny bravo,open,8.0,2112.77
 Alex,Tatum,summit,,,,
 Jake,Floyd,legion,,,,
 Carson,Wilder,legion,,,,
 Myles,Armstrong,legion,public enemy,mixed,19.0,1738.53
-Alec,Wilson Holliday,legion,,,,
-Emmanuel,Bilolo,legion,,,,
+Alec,Wilson Holliday,legion,doublewide,open,9.0,2106.81
+Emmanuel,Bilolo,legion,doublewide,open,9.0,2106.81
 Zachary,Wenner,legion,,,,
 Cameron,Guidry,legion,kansas city united,mixed,31.0,1595.15
-Jason,Hustad,legion,,,,
+Jason,Hustad,legion,doublewide,open,9.0,2106.81
 Brian,Street,legion,waterloo,mixed,30.0,1615.31
 Daniel,Welkener,legion,public enemy,mixed,19.0,1738.53
 Connor,DeLuna,legion,public enemy,mixed,19.0,1738.53
@@ -315,7 +314,6 @@ Kenta,Kawaguchi,aviators,,,,
 Andrew,Padula,aviators,socal condors,open,22.0,1852.4
 Sean,McDougall,aviators,socal condors,open,22.0,1852.4
 Cy,Toriello,aviators,hazard,open,74.0,1383.45
-Cy,Toriello,aviators,hazard,open,139.0,974.12
 Mitchell,Steiner,aviators,socal condors,open,22.0,1852.4
 Leo,Decter,aviators,,,,
 Steven,Moliterno,aviators,robot,mixed,67.0,1238.99
@@ -525,7 +523,6 @@ Pete,Zaccardi,thunderbirds,,,,
 Chris,Graber,thunderbirds,pittsburgh temper,open,39.0,1624.71
 Will,Hoffenkamp,thunderbirds,pittsburgh temper,open,39.0,1624.71
 Connor,Newell,thunderbirds,pittsburgh temper,open,39.0,1624.71
-Ryan,Kindell,thunderbirds,hazard,open,74.0,1383.45
 Ryan,Kindell,thunderbirds,hazard,open,139.0,974.12
 David,Braden,thunderbirds,flying dutchmen,open,75.0,1377.54
 Benjamin,Attal,thunderbirds,pittsburgh port authority,mixed,38.0,1501.11
@@ -697,3 +694,4 @@ James,McClean,rush,,,,
 Chris,Chan,rush,,,,
 Adam,Turcotte,rush,goat,open,15.0,1972.27
 Griffin,McKee,rush,,,,
+,griffin-mckee,,,,,

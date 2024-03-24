@@ -64,8 +64,8 @@ with open('data/ufa_rosters.csv', mode='r+', newline='') as csvfile:
                 slug = person.lower().replace(' ','-')
             except ValueError:
                 raise Exception(f'Failed to parse {person}')
-            if f'{first_name}{last_name}{team_name}' not in added:
+            if f'{team_name}{slug}' not in added:
                 writer.writerow([first_name, last_name, team_name, slug])
-                added.add(f'{first_name}{last_name}{team_name}')
+                added.add(f'{team_name}{slug}')
             else:
                 print(f'didn\'t add {first_name} {last_name} again')
