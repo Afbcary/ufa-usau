@@ -27,7 +27,7 @@ teams_query = """
             AND (tn.slug LIKE '%2023%sectional%' OR tn.slug LIKE '%2023%regional%')
     ) 
     SELECT DISTINCT
-        t.name as club_team,
+        LOWER(t.name) as club_team,
         t.gender as division,
         p.first_name,
         p.last_name
@@ -44,10 +44,10 @@ teams_df = pd.read_sql_query(teams_query, con)
 
 # MANUAL CLEAN UP
 duplicates_to_remove = [
-    ['James', 'Pollard', 'BW Ultimate'],
-    ['Max', 'Williams', 'Power Point Ultimate'],
-    ['Jonathan', 'Mast', 'Legion'],
-    ['Jordan', 'Smith', 'Capitol City Chaos'],
+    ['James', 'Pollard', 'bw ultimate'],
+    ['Max', 'Williams', 'power point ultimate'],
+    ['Jonathan', 'Mast', 'legion'],
+    ['Jordan', 'Smith', 'capitol city chaos'],
 ]
 for record in duplicates_to_remove:
     teams_df.drop(teams_df[
