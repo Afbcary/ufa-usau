@@ -30,7 +30,7 @@ def writeDataForDivision(division):
                     rating = prev_rating
                 prev_rank = rank
                 prev_rating = rating
-                writer.writerow([rank, name, rating, division])
+                writer.writerow([rank, str.lower(name), rating, division])
             else: 
                 print(pprint.pprint(tds))
 
