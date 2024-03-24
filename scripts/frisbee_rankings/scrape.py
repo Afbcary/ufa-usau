@@ -15,6 +15,9 @@ def writeDataForDivision(division):
         writer = csv.writer(csvfile, delimiter=',')
         prev_rank = 0
         prev_rating = 0
+        # for combining purposes later
+        if division == 'men':
+            division = 'open'
         for row in rows:
             tds = row.find_all('td')
             if len(tds) > 5:
