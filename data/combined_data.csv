@@ -1,696 +1,699 @@
-first_name,last_name,ufa_team,club_team,division
-Billy,O'Bryan,hustle,,
-Trip,Crowley,hustle,Space Cowboys,open
-Austin,Taylor,hustle,Dirty Bird,mixed
-Lukas,McClamrock,hustle,Chain Lightning,open
-Bradley,Seuntjens,hustle,Hooch,open
-Michael,Fairley,hustle,Chain Lightning,open
-Brett,Hulsmeyer,hustle,Chain Lightning,open
-Justin,Burnett,hustle,'Shine,mixed
-Christian,Olsen,hustle,,
-Bobby,Ley,hustle,,
-Walter,Ellard,hustle,Roma Ultima,mixed
-Tyler,Randall,hustle,Chain Lightning,open
-Matt,Smith,hustle,Alibi,open
-Jakeem,Polk,hustle,Dirty Bird,mixed
-Ryan,Flick,hustle,Delirium,open
-Hayden,Austin-Knab,hustle,Chain Lightning,open
-Adam,Miller,hustle,Chain Lightning,open
-Jeremy,Langdon,hustle,Chain Lightning,open
-Franky,Fernandez,hustle,,
-Karl,Ekwurtzel,hustle,,
-Bradley,Fleming,hustle,Space Force,mixed
-Dean,Ramsey,hustle,,
-Mike,Kobyra,hustle,Chain Lightning,open
-Jacob,Blackman,hustle,Lost Boys,open
-Eli,Motycka,hustle,'Shine,mixed
-Andrew,Thai,hustle,Little Red Wagon,open
-Cam,Copeland,hustle,Alliance,open
-Aidan,Downey,hustle,,
-Trenton,Spinks,hustle,Space Force,mixed
-Tanner,Robinson,hustle,Chain Lightning,open
-Tannon,Hedges,hustle,Chain Lightning,open
-Michael,Johnson,hustle,,
-Brandon,Beers,hustle,Alliance,open
-Will,Bianca,hustle,,
-Mark,Evans,sol,,
-Mark,Henke,sol,,
-Reese,Bowman,sol,,
-Evan,Swiatek,sol,,
-Eric,Brodbeck,sol,,
-Jake,Reinhardt,sol,,
-Jack,Dowling,sol,,
-Noah,Chambers,sol,,
-Jacob,Kaplan,sol,,
-Nick,Loughran,sol,Waterloo,mixed
-Elliott,Moore,sol,,
-Kyle,Henke,sol,,
-Jordan,Salazar,sol,,
-Mick,Walter,sol,,
-Brandon,Dial,sol,,
-Jackson,Potts,sol,,
-Jake,Radack,sol,,
-Oliver,Fay,sol,,
-Joey,Wylie,sol,,
-Matthew,Armour,sol,,
-Mason,Zetsch,sol,STL Lounar,open
-Gavin,Babbitt,sol,,
-Jake,Worthington,sol,,
-Duncan,Fitzgerald,sol,,
-Joshua,Zdrodowski,sol,,
-Ivan,Tran,glory,Sprocket,mixed
-Jay,Clark,glory,,
-Benjamin,Sadok,glory,,
-Cole,Moore,glory,Dig,open
-Turner,Allen,glory,Dig,open
-Topher,Davis,glory,Dig,open
-Simon,Carapella,glory,Dig,open
-Peter,Boerth,glory,Dig,open
-Luca,Harwood,glory,Sprout,open
-Rocco,Linehan,glory,,
-Oscar,Graff,glory,Dig,open
-Jac,Carreiro,glory,Dig,open
-Gabe,Colton,glory,,
-Cole,Davis-Brand,glory,Dig,open
-Zach,Singer,glory,Sprocket,mixed
-Nathanial,Dick,glory,,
-Gustav,Haflin,glory,Dig,open
-Colin,Sunde,glory,Scoop,open
-Tyler,Chan,glory,Dig,open
-Chris,Bartoli,glory,Sprout,open
-Caelan,McSweeney,glory,Dig,open
-Matthew,Nightingale,flyers,Raleigh-Durham United,open
-Tobias,Brooks,flyers,Raleigh-Durham United,open
-Sol,Yanuck,flyers,,
-Henry,Fisher,flyers,,
-Seth,Weaver,flyers,,
-Dylan,Hawkins,flyers,Ring of Fire,open
-Grayson,Sanner,flyers,Toro,mixed
-Terrence,Mitchell,flyers,Toro,mixed
-Matt,Tucker,flyers,Ring of Fire,open
-Ethan,Bloodworth,flyers,Ring of Fire,open
-Allan,Laviolette,flyers,PoNY,open
-William,Coffin,flyers,Raleigh-Durham United,open
-Ramzi,Musleh,flyers,,
-Drew,Swanson,flyers,,
-Anders,Juengst,flyers,Ring of Fire,open
-Suraj,Madiraju,flyers,Ring of Fire,open
-Cooper,Williams,flyers,,
-Jacob,Fairfax,flyers,Ring of Fire,open
-Cam,Bellando,flyers,Raleigh-Durham United,open
-Walker,Matthews,flyers,Ring of Fire,open
-Michael,Lee,flyers,Toro,mixed
-John,Wellers,flyers,Big Wrench,open
-Daniel,Zhu,flyers,Toro,mixed
-Ty,Naquin,flyers,Raleigh-Durham United,open
-Christian,Belus,flyers,,
-Alexander,Wilcox,flyers,,
-Marc,Rovner,flyers,,
-Dillon,Bruer,flyers,Raleigh-Durham United,open
-Elijah,Long,flyers,Ring of Fire,open
-Clint,McSherry,flyers,Raleigh-Durham United,open
-Andrew,Vande Berg,flyers,,
-Trevor,Lynch,flyers,Ring of Fire,open
-Ben,Snell,flyers,Ring of Fire,open
-Jesse,Johnson,union,Chicago Machine,open
-Gabe,Schoepke,union,,
-Ray,Mauntel,union,STL Lounar,open
-Joel,Willison,union,,
-Jack,Shanahan,union,Chicago Machine,open
-Ian,Falck,union,,
-Wilson,Matthews,union,Raleigh-Durham United,open
-Nate,Astrom,union,,
-Reid,Martin,union,,
-Sam,Kaminsky,union,Chicago Parlay,mixed
-Dex,Dremann,union,,
-Jeff,Weis,union,,
-Cullen,Baker,union,,
-Cal,Tornabene,union,,
-Joe,Cercello,union,,
-Milan,Rivas,union,,
-Jake,Steslicki,union,Chicago Machine,open
-Yipeng,Wang,union,,
-Sam,Gabrielson,union,Raleigh-Durham United,open
-Benjamin,Preiss,union,Chicago Machine,open
-John,Lithio,union,Mystery Box,open
-Dylan,Power,union,Mad Men,open
-Jake,Rubin-Miller,union,,
-Jerry,Kelly,union,,
-Joe,White,union,Chicago Machine,open
-Andrew,Sjogren,union,Chicago Machine,open
-Alex,Atkins,summit,,
-Zeke,Thoreson,summit,,
-Jay,Froude,summit,,
-Atkin,Arnstein,summit,,
-Felix,Pronove,summit,,
-Logan,Pruess,summit,,
-Matt,Jackson,summit,,
-Jonathan,Nethercutt,summit,,
-Danny,Landesman,summit,,
-Sam,Goldstein,summit,shame.,mixed
-Rodrigo,Gould Rodriguez,summit,,
-Seth,Faris,summit,,
-Chance,Cochran,summit,,
-Saeed,Semrin,summit,,
-Dennis,Bechis,summit,,
-Charles,Cannon,summit,,
-Thomas,Brewster,summit,shame.,mixed
-Connor,Olson,summit,,
-Mathieu,Agee,summit,,
-Tyler,Nguyen,summit,,
-David,Yu,summit,Flight Club,mixed
-Sandford,Brown,summit,,
-Sten,Larson,summit,,
-Kai,Marshall,summit,,
-Cody,Johnston,summit,,
-Chris,Ward,summit,,
-Nanda,Min-Fink,summit,,
-Nicholas,Snuszka,summit,shame.,mixed
-Noah,Coolman,summit,,
-Erik,Hotaling,summit,,
-Aylen,Learned,summit,,
-Jeremy,Knopf,summit,Truck Stop,open
-Nathan,Buchholz,summit,,
-Quinn,Finer,summit,,
-Alex,Tatum,summit,,
-Jake,Floyd,legion,,
-Carson,Wilder,legion,,
-Myles,Armstrong,legion,Public Enemy,mixed
-Alec,Wilson Holliday,legion,,
-Emmanuel,Bilolo,legion,,
-Zachary,Wenner,legion,,
-Cameron,Guidry,legion,Kansas City United,mixed
-Jason,Hustad,legion,,
-Brian,Street,legion,Waterloo,mixed
-Daniel,Welkener,legion,Public Enemy,mixed
-Connor,DeLuna,legion,Public Enemy,mixed
-Nathaniel,Austin,legion,Scoober Heroes,mixed
-Luke,Norby,legion,Risky Business,mixed
-Eric,Carter,legion,Public Enemy,mixed
-Daniel,Winter,legion,,
-Tommy,Trompeter,legion,,
-Joseph,Welkener,legion,Public Enemy,mixed
-Drew,Laird,legion,Memphis Pharaohs,open
-Darren,Phillips,legion,,
-Watson,Anderson,legion,,
-John,Shelley,legion,,
-Max,Hamilton,legion,,
-Samuel,Roberts,legion,BARNSTORM,open
-Ben,Rogers,legion,,
-Nicholas,DiGiorgio,legion,Public Enemy,mixed
-Jack,Wooldridge,legion,,
-Tanner,Roberts,legion,,
-Ben,Price,legion,,
-Xavier,Schafer,breeze,Red Wolves,open
-Isaac,Lee,breeze,Truck Stop,open
-Charlie,McCutcheon,breeze,,
-AJ,Merriman,breeze,Truck Stop,open
-Zachary,Burpee,breeze,Sprout,open
-Tyler,Monroe,breeze,Truck Stop,open
-Thomas,Edmonds,breeze,Truck Stop,open
-Zach,Norrbom,breeze,,
-Luke,Rehfuss,breeze,Truck Stop,open
-Rowan,McDonnell,breeze,,
-Cole,Jurek,breeze,Truck Stop,open
-William,Tober,breeze,,
-Kevin,Healey,breeze,Vault,open
-Brandon,Lamberty,breeze,Vault,open
-Rhys,Bergeron,breeze,Truck Stop,open
-Elliot,Bonnet,breeze,,
-Jacques,Nissen,breeze,Truck Stop,open
-Rami,Paust,breeze,Vault,open
-David,Bloodgood,breeze,Truck Stop,open
-Andrew,Roy,breeze,Truck Stop,open
-Mitchell,Blaha,breeze,Red Wolves,open
-Miles, Grovic,breeze,,
-Tanner,Gesell,breeze,,
-Jeff,Wodatch,breeze,Truck Stop,open
-Gus,Norrbom,breeze,Truck Stop,open
-Ryan,Weaver,breeze,Vault,open
-Jonny,Malks,breeze,Truck Stop,open
-Jasper,Tom,breeze,Truck Stop,open
-Frederick,Farah,breeze,Truck Stop,open
-Jace,Dean,breeze,Oakgrove Boys,open
-Nathan,Ploeger,mechanix,Enigma,open
-Gregory,Moreno,mechanix,,
-Justin,Wollin,mechanix,Knights of Ni,open
-Carson,Chamberlain,mechanix,Tanasi,open
-James,Kloss,mechanix,,
-Jake,Felton,mechanix,,
-Nic,Lanas,mechanix,,
-Marco,Dewey,mechanix,,
-Brendan,Gessner,mechanix,Knights of Ni,open
-Richard,Ware,mechanix,Spectre,mixed
-Bradley,Kennis,mechanix,Colonels,open
-Elliot,Davis,mechanix,Diesel,open
-Terry,Gaither,mechanix,,
-Aiden,Rudy,mechanix,,
-Stephen,Grondin,mechanix,Toast!,mixed
-Conrad,Nguyen,mechanix,Beacon,open
-Matthew,Bell,mechanix,Diesel,open
-Colin,Beauregard,mechanix,Beacon,open
-Noah,Sawyer,mechanix,MARC,open
-Max,Grove,havoc,,
-Brendan,Keith,havoc,Drought,open
-Matt,Bennett,havoc,,
-Xavier,Daniel,havoc,,
-Corey,Tolbert,havoc,,
-Marshall,Dinges,havoc,,
-Ben,Lewis,havoc,,
-Brendan,Adams,havoc,,
-Connor,Ughetta,havoc,,
-Kyle,Kolafa,havoc,,
-Caiden,Burt,havoc,,
-Dylan,Zeringue,havoc,,
-Steven,Kelly,havoc,,
-Kevin,Land,havoc,,
-Brian,Gfroerer,havoc,,
-Zachary,Cotter,havoc,,
-Francisco,Gomez,havoc,,
-Jimmy,Zuraw,havoc,,
-Shaun,Seidenberger,havoc,,
-Toya,Chukwumerije ,havoc,,
-Mark,Baldauf,havoc,,
-Elliot,Sakach,havoc,,
-Garrett,Wilson,havoc,,
-Brandon,Lin,havoc,Goosebumps,mixed
-Mitch,Lutz,havoc,,
-Bryan,Downey,havoc,,
-Gregory,Plaia Jr.,havoc,,
-Ethan,Niedzwiedz,havoc,,
-Matt,Lyle,havoc,,
-Dane,Bossert,havoc,,
-Conner,Blalack,alleycats,Colonels,open
-Rick,Gross,alleycats,Omen,open
-Cameron,Brock,alleycats,,
-Jeremiah,Branson,alleycats,Tanasi,open
-Sam,Good,alleycats,,
-Levi,Jacobs,alleycats,,
-Lucas,Coniaris,alleycats,Omen,open
-William,Wettengel,alleycats,Omen,open
-Jason,Kempe,alleycats,,
-Jake,Kenniv,alleycats,Omen,open
-Seth,Gudeman,alleycats,Colonels,open
-Cody,Curran,alleycats,STL Lounar,open
-Drew,Happe,alleycats,Colonels,open
-Nick,Hutton,alleycats,,
-Xavier,Payne,alleycats,Chicago Machine,open
-Jack,Havey,alleycats,Omen,open
-Collin,Rassel,alleycats,Spectre,mixed
-Tanner,Graham,alleycats,,
-Joey,Cari,alleycats,,
-Travis,Carpenter,alleycats,Omen,open
-Elliot, Hawkins,alleycats,,
-Ben,Close,alleycats,,
-Ben,Landry,alleycats,,
-Joel,Close,alleycats,,
-John,Jones,alleycats,,
-Robby,Davenport,alleycats,,
-Michael,Kiyoi,aviators,,
-Brent,George,aviators,,
-Landon,Shank,aviators,,
-Isaac,Hsu,aviators,OC Crows,open
-Kenta,Kawaguchi,aviators,,
-Andrew,Padula,aviators,SoCal Condors,open
-Sean,McDougall,aviators,SoCal Condors,open
-Cy,Toriello,aviators,Hazard,open
-Mitchell,Steiner,aviators,SoCal Condors,open
-Leo,Decter,aviators,,
-Steven,Moliterno,aviators,Robot,mixed
-Kevin,Goldberg,aviators,,
-Jason,Lee,aviators,Lotus,mixed
-Zac,Schakner,aviators,,
-Everest,Shapiro,aviators,SoCal Condors,open
-Daniel,Brunker,aviators,SoCal Condors,open
-Kobi,McCracken,aviators,SoCal Condors,open
-Sam,Cook,aviators,,
-Will,Turner,aviators,,
-Eddie,Finley,aviators,,
-Mateo,Dominguez,aviators,SoCal Condors,open
-Pawel,Janas,aviators,Chicago Machine,open
-Garrett,Santi,aviators,,
-Rhys,Gretsch,aviators,Red Wolves,open
-Tomas,Fong,aviators,OC Crows,open
-Bryan,Nguyen,aviators,Lotus,mixed
-Brandon,Van Deusen,aviators,,
-Andrew,Meshnick,radicals,,
-Jake,Carrico,radicals,Mad Men,open
-Brian,Hart,radicals,,
-Anthony,Gutowsky,radicals,Mad Men,open
-Charlie, Benforado,radicals,,
-Joshua,Wilson,radicals,Mad Udderburn,mixed
-Victor,Luo,radicals,Chicago Machine,open
-David,Nester,radicals,Mad Men,open
-Jacob,Wham,radicals,Mad Men,open
-Tyler, Williams,radicals,,
-Alex,Gravatt,radicals,,
-Sterling,Knoche,radicals,Mad Men,open
-Nico,Ranabhat,radicals,Mad Men,open
-Avery,Johnson,radicals,NOISE,mixed
-Mac,Weber,radicals,Mad Men,open
-Shane,Otis,radicals,Mad Men,open
-Noah,Nicol,radicals,Bux,open
-Jack,Nelson,radicals,Mad Men,open
-Daniel,Garlock,radicals,NOISE,mixed
-Val,Post,radicals,,
-Biz,Schlaefer,radicals,,
-Pat,Shriwise,radicals,,
-Max,Sample,radicals,,
-John,Tan,radicals,Mad Men,open
-Matt,Grinde,radicals,,
-Kelsen,Alexander,radicals,NOISE,mixed
-Mitchell,McCarthy,radicals,,
-Joe,Leibforth,radicals,,
-Ted,Schewe,radicals,Mad Men,open
-Luke,Marks,radicals,Mad Men,open
-Jack,Kelly,radicals,NOISE,mixed
-Kevin,Pettit-Scantling,radicals,,
-Gabe,Vordick,radicals,houSE,open
-Pieran,Robert,radicals,NOISE,mixed
-Sam,Stark,radicals,,
-Kai,Marcus,radicals,,
-Bret,Bergmeier,windchill,Drag'n Thrust,mixed
-William,Brandt,windchill,,
-Bryan,Vohnoutka,windchill,Drag'n Thrust,mixed
-Noah,Hanson,windchill,Sub Zero,open
-Jordan,Taylor,windchill,Sub Zero,open
-Tyler,Thomegreene,windchill,DingWop,open
-Ian,McCosky,windchill,,
-Sebastian,Brauer,windchill,Sub Zero,open
-Michael,Jordan,windchill,,
-Will,Casperson,windchill,Sub Zero,open
-Colin,Berry,windchill,Sub Zero,open
-Tanner,Barcus,windchill,Drag'n Thrust,mixed
-Michael,Petersen,windchill,,
-Gordon,Larson,windchill,Sub Zero,open
-Sam,Berglund,windchill,Drag'n Thrust,mixed
-Paul,Krenik,windchill,Sub Zero,open
-Matej,Petrovic,windchill,Sub Zero,open
-Cameron,Lacy,windchill,Minnesota Star Power,mixed
-Josh,Klane,windchill,Drag'n Thrust,mixed
-Leo,Sovell-Fernandez,windchill,Sub Zero,open
-Matthew,Rehder,windchill,Ring of Fire,open
-Greg,Cousins,windchill,,
-James,Kittlesen,windchill,Bantr,mixed
-Anthony,Jirele,windchill,Mallard,open
-Mickey,Walsh,windchill,,
-Dylan,DeClerck,windchill,Drag'n Thrust,mixed
-Brandon,Matis,windchill,Drag'n Thrust,mixed
-Quinn,Snider,windchill,General Strike,open
-Tristan,Van de Moortele,windchill,,
-Paul,Hooley,royal,Mephisto,open
-William,St-Pierre,royal,Mephisto,open
-Charles,Guay,royal,Mephisto,open
-Sam,Warrick,royal,,
-Raphael,Salvas,royal,Mephisto,open
-Felix,Leonard,royal,Mephisto,open
-Julien,Bernat,royal,Mephisto,open
-Ywan,Cohonner,royal,Mephisto,open
-Raphaël,Lalonde-Landry,royal,Mephisto,open
-Thomas,Lalonde-Landry,royal,Mephisto,open
-Antoine,Dubé,royal,,
-Jacob,Duquette,royal,General Strike,open
-Phillipe,Le Bourdais,royal,,
-Tobe,Decraene,royal,,
-Calvin,Coulbury,royal,,
-Antoine,Rousseau,royal,Mephisto,open
-Christophe,Tremblay-Joncas,royal,,
-Quentin,Bonnaud,royal,,
-Jean-Levy,Champagne,royal,LAX,mixed
-Liam,McKeown,royal,Mephisto,open
-Melvyn,Brichet,royal,Mephisto,open
-Kevin,Groulx,royal,,
-Kevin,Quinlan,royal,Mephisto,open
-Dylan,Lacombe-Burgoyne,royal,,
-Jakob,Brissette,royal,Furious George,open
-Ryan,Osgar,empire,PoNY,open
-Oscar,Kohut,empire,XIST,mixed
-Josue,Alorro,empire,XIST,mixed
-Ben,Jagt,empire,,
-Charles,Weinberg,empire,Mystery Box,open
-Ethan,Fortin,empire,Dig,open
-Solomon,Rueschemeyer-Bailey,empire,Dig,open
-Elliott,Chartock,empire,,
-Jack,Williams,empire,PoNY,open
-Jeff,Holm,empire,,
-Oliver,Chartock,empire,XIST,mixed
-Mike,Drost,empire,,
-Axel,Agami,empire,,
-Matt,LaBar,empire,Garden State Ultimate,open
-Shashank,Alladi,empire,PoNY,open
-John,Randolph,empire,PoNY,open
-Bretton,Tan,empire,,
-Ryan,Drost,empire,XIST,mixed
-Antoine,Davis,empire,PoNY,open
-Marques,Brownlee,empire,PoNY,open
-Matthias,Ling,empire,RAMP,mixed
-Gavin,May,spiders,Zyzzyva,open
-Rafael,Castro,spiders,,
-Robin,Vickers Batzdorf,spiders,,
-Walker,Frankenberg,spiders,Sunshine,mixed
-Dylan,Nice,spiders,Zyzzyva,open
-Payton,Laurie,spiders,Classy,mixed
-Robert,Yeagle,spiders,Polar Bears,mixed
-Justin,Lim,spiders,,
-Jace,Bruner,spiders,,
-Daniel,Ritthaler,spiders,Rhino Slam!,open
-Sawyer,Thompson,spiders,Revolver,open
-Ridge,Huang,spiders,Zyzzyva,open
-Chris,Lung,spiders,,
-Jake,Thorne,spiders,,
-Matthew,Burke,spiders,,
-Victor,Zhou,spiders,Donuts,mixed
-Morgan,Sommer,spiders,Sunshine,mixed
-Raekwon,Adkins,spiders,Zyzzyva,open
-Evan, Magsig,spiders,,
-Aaron,Rosenthal,spiders,Zyzzyva,open
-Stephen,Dolan,spiders,Zyzzyva,open
-Dexter,Clyburn,spiders,Zyzzyva,open
-Conor,Bauman,spiders,BW Ultimate,mixed
-Keenan,Laurence,spiders,,
-Max,Williams,spiders,Zyzzyva,open
-Eli,Kerns,spiders,,
-Wyatt,Berreman,spiders,BW Ultimate,mixed
-Dylan,Burns,spiders,Mischief,mixed
-Sam,Kapalapa,spiders,,
-Christopher,Zaleski,phoenix,,
-Brandon,Pastor,phoenix,Loco,mixed
-Greg,Martin,phoenix,Rumspringa,open
-Mike,Campanella,phoenix,,
-Max,Trifillis,phoenix,Loco,mixed
-Tyler,DeGirolamo,phoenix,,
-Nate,Long,phoenix,Phantom,open
-Anthony,Prato,phoenix,,
-Dmitry,Suvorov,phoenix,Garden State Ultimate,open
-Eric,Witmer,phoenix,AMP,mixed
-Mark,Philipson,phoenix,Phantom,open
-Trevor,Griesman,phoenix,,
-James,Pollard,phoenix,Phantom,open
-Gavin,Abrahamsson,phoenix,Sprout,open
-Alex,Thorne,phoenix,,
-Jordan,Rhyne,phoenix,AMP,mixed
-Allan,Michel,phoenix,Phantom,open
-Nate,Little,phoenix,ColorBomb,mixed
-Justin,Keller,phoenix,Loco,mixed
-Leo,Warren,phoenix,Loco,mixed
-David,Perry,phoenix,Garden State Ultimate,open
-Calvin,Trisolini,phoenix,,
-Ian,Dietrich,phoenix,Phantom,open
-Ethan,Holmgren,phoenix,Loco,mixed
-Matt,Hanna,phoenix,,
-Scott,Heyman,phoenix,Pittsburgh Temper,open
-Sean,Mott,phoenix,PoNY,open
-Paul,Owens,phoenix,AMP,mixed
-Andres,Rodriguez,phoenix,,
-Eric,Nardelli,phoenix,AMP,mixed
-Reid,Duncan,thunderbirds,Pittsburgh Temper,open
-Max,Sheppard,thunderbirds,Pittsburgh Temper,open
-Jonathan,Mast,thunderbirds,Cleveland Crocs,mixed
-John,McMonigal,thunderbirds,,
-Noah,Celuch,thunderbirds,Pittsburgh Temper,open
-Anson,Reppermund,thunderbirds,Pittsburgh Temper,open
-Thomas,Hansen,thunderbirds,Pittsburgh Stealers,open
-Andrew, Thompson,thunderbirds,,
-Joe,Molder,thunderbirds,Pittsburgh Stealers,open
-Robin,Maillard,thunderbirds,Pittsburgh Temper,open
-Zac,Byrnes,thunderbirds,Cleveland Crocs,mixed
-Charlie,Vukovic,thunderbirds,Cleveland Crocs,mixed
-Kenny,Furdella,thunderbirds,,
-Tyler,McCarthy,thunderbirds,Magma Bears,open
-Logan,Call,thunderbirds,Bomb Squad,open
-Anil,Driehuys,thunderbirds,,
-Pete,Zaccardi,thunderbirds,,
-Chris,Graber,thunderbirds,Pittsburgh Temper,open
-Will,Hoffenkamp,thunderbirds,Pittsburgh Temper,open
-Connor,Newell,thunderbirds,Pittsburgh Temper,open
-Ryan,Kindell,thunderbirds,Hazard,open
-David,Braden,thunderbirds,Flying Dutchmen,open
-Benjamin,Attal,thunderbirds,Pittsburgh Port Authority,mixed
-Malachi,Marshall,thunderbirds,Chimney,open
-Mahith,Edula,thunderbirds,Pittsburgh Stealers,open
-Kevin,Nicholl,thunderbirds,Chimney,open
-Marcel,Oliart,thunderbirds,Pittsburgh Temper,open
-Jimmy,Towle,thunderbirds,Pittsburgh Temper,open
-Dan,Nichols,thunderbirds,Pittsburgh Temper,open
-Alex,Mullen,thunderbirds,Pittsburgh Stealers,open
-Michael,Dillard,thunderbirds,Pittsburgh Temper,open
-Carl,Johnson,thunderbirds,Pittsburgh Temper,open
-Matt,Viscido,thunderbirds,,
-Max,Devine,thunderbirds,,
-Avi,Taylor,nitro,Oregon Scorch,mixed
-Ben,Thoennes,nitro,Rhino Slam!,open
-David,Barram,nitro,Dark Star,open
-Scott,Radlauer,nitro,Dark Star,open
-Felix,Moren,nitro,Rhino Slam!,open
-Conner,Stillwell,nitro,Dark Star,open
-Cole,Eustis,nitro,Dark Star,open
-Kaenan,Combs,nitro,Dark Star,open
-Quinn,Buermeyer,nitro,Dark Star,open
-Jon,Snyder,nitro,Oregon Scorch,mixed
-Josh,Moore,nitro,Oregon Scorch,mixed
-Duncan,McNally,nitro,,
-Nate,Knutson,nitro,,
-Emmett,Warner,nitro,Dark Star,open
-Landon,Lavoie,nitro,Furious George,open
-Julian,Saunt,nitro,,
-Antonio,Rueda,nitro,Dark Star,open
-Henry,Wayte,nitro,Dark Star,open
-Bram,Allahdadi,nitro,Oregon Scorch,mixed
-Dan,Baumgartner,nitro,Dark Star,open
-Nick,Redmond,nitro,,
-Spencer,Latarski,nitro,,
-Zach,Heiden,nitro,Igneous Ultimate,mixed
-Patrick,Buermeyer,nitro,,
-Caleb,Campbell,nitro,Igneous Ultimate,mixed
-Lucas,Henry,nitro,Igneous Ultimate,mixed
-Jacob,Miller,shred,Space Force,mixed
-Nathan,Huff,shred,Shrimp,open
-Luke,Yorgason,shred,,
-Oscar,Brown,shred,Shrimp,open
-Devon,Terry,shred,,
-Trey,Taylor,shred,,
-Chad,Yorgason,shred,,
-Sean,Connole,shred,,
-Will,Selfridge,shred,Shrimp,open
-Ben,Field,shred,Slow,mixed
-McKay,Yorgason,shred,,
-Sean,McDonald,shred,,
-Ben,Ashton,shred,,
-Justin,Mecham,shred,Utah Hatu,open
-Zach,Burnside,shred,,
-Porter,Oyler,shred,Sundance Kids,open
-Zach,Wolfe,shred,Slow,mixed
-Jacob,Jahnke,shred,,
-Jace,Duennebeil,shred,Shrimp,open
-Tony,Mounga,shred,,
-Jonny,Hoffman,shred,Quick Draw,mixed
-Alex,Forsberg,shred,Shrimp,open
-Grant,Lindsley,shred,,
-Matt,Jamison,shred,Sundance Kids,open
-Kyle,Weinberg,shred,Shrimp,open
-Chase,Smith,shred,Quick Draw,mixed
-Joe,Merrill,shred,,
-Elijah,Jaime,shred,Space Force,mixed
-Jason,McKeen,shred,,
-Jordan,Kerr,shred,Chicago Machine,open
-Eugene,L'Heureux,shred,,
-Taylor,Barton,shred,Utah Hatu,open
-Grayson,Rettburg,shred,,
-Matt,Miller,growlers,,
-Bryce,Lozinski,growlers,SoCal Condors,open
-Aaron,Coble,growlers,California Burrito,mixed
-Maxwell,Hume,growlers,SoCal Condors,open
-Matt,Nelson,growlers,,
-Peter,Lenz,growlers,Seattle Mixtape,mixed
-Reggie,Sung,growlers,SoCal Condors,open
-Ethan,Li,growlers,California Burrito,mixed
-Tynan,Sander,growlers,,
-Thomas,Konogeris,growlers,SoCal Condors,open
-Kyle,Rubin,growlers,SoCal Condors,open
-Marshall,Crawford,growlers,Lawless,mixed
-Michael,Tran,growlers,SoCal Condors,open
-Daniel,Pryke,growlers,Skipjack,open
-Krishna,Gomatam,growlers,Skipjack,open
-Casey,Wu,growlers,shame.,mixed
-Jan,Szmanda,growlers,,
-Jordan,Queckboerner ,growlers,,
-Ben,Levinsky,growlers,,
-Oliver,Artus,growlers,Lawless,mixed
-Stefan,Samu,growlers,,
-Taylor,Gilman,growlers,Lawless,mixed
-Elijah,Salmon,growlers,,
-Jimmy,McGuinness,growlers,,
-Travis,Dunn,growlers,Lawless,mixed
-Caden,Sigerud,growlers,,
-Garrett,Hable,growlers,Lawless,mixed
-Casey,Shugarman,growlers,California Burrito,mixed
-Max,Gibson,growlers,Skipjack,open
-Zeppelin,Raunig,cascades,Sockeye,open
-Tony,Goss,cascades,,
-Lukas,Ambrose,cascades,SoCal Condors,open
-Willie,Saxen,cascades,,
-Jordan,Smith,cascades,SOUF,open
-Spencer,Lofink,cascades,Furious George,open
-Christian,Foster,cascades,Sockeye,open
-Marc,Munoz,cascades,,
-Garrett,Martin,cascades,Sockeye,open
-Jake,Shoyer,cascades,,
-Chris,Roach,cascades,Bullet Train,mixed
-Tommy,Li,cascades,,
-Jack,Brown,cascades,,
-Derek,Mourad,cascades,BFG,mixed
-Jasper,Dean,cascades,Sockeye,open
-Mason,Stone,cascades,Mystery Gang,open
-Emmet,Shipway,cascades,,
-Kenny,Lane III,cascades,,
-Tommy,Lin,cascades,BFG,mixed
-Michael,Buyco,cascades,Seattle Mixtape,mixed
-Cedar,Hines,cascades,Sockeye,open
-Ian,Sweeney,cascades,Rhino Slam!,open
-Steve,Mogielski,cascades,,
-Ben,Bolan,cascades,,
-Kamal,Raslan,cascades,Pegasus,mixed
-Phillip,Korolog,cascades,Switchback,open
-Jeremy,Norden,cascades,,
-Ray,Ye,cascades,Blueprint,open
-Gavin,Leahy,cascades,,
-Soren,Dahl,cascades,,
-Dominic,Jacobs,cascades,,
-Louie,Bertoncin,cascades,Bullet Train,mixed
-Dominic,Chiodi,cascades,Mystery Gang,open
-Brandon,Li,cascades,Seattle Mixtape,mixed
-Shane,Worthington,cascades,Sockeye,open
-Khalif,El-Salaam,cascades,Seattle Mixtape,mixed
-Brandon,Adibe,rush,Phoenix,open
-Akifumi,Muraoka,rush,GOAT,open
-Kevin,Jay,rush,GOAT,open
-Matthew,Lam,rush,,
-Oscar,Stonehouse,rush,,
-Nathan,Hsieh,rush,,
-Jackson,McKee,rush,,
-Justin,Luo,rush,,
-Zachary,Armstrong,rush,,
-Kevin,Tong,rush,Red Flag,mixed
-Luc,Comire,rush,GOAT,open
-Rui,Carvalho,rush,,
-Ryan,Poloz,rush,GOAT,open
-Martin,Shiu,rush,,
-Dax,Miller,rush,,
-Oren,Binnun,rush,UNION,mixed
-Daniel,Wong,rush,,
-Travis,Puckrin,rush,,
-Kelvin,Huang,rush,,
-Owen,Robinson,rush,Magma Bears,open
-Jamie,Millage,rush,,
-Phil,Turner,rush,,
-Keith,McRae,rush,GOAT,open
-Logan,Dufour,rush,,
-Adam,O'Donnell,rush,GOAT,open
-Ben,Klar,rush,,
-Araav,Sehgal,rush,,
-Cameron,Kennedy,rush,Phoenix,open
-Will,Turner,rush,,
-James,McClean,rush,,
-Chris,Chan,rush,,
-Adam,Turcotte,rush,GOAT,open
-Griffin,McKee,rush,,
+first_name,last_name,ufa_team,club_team,division_x,rank_x,rating_x,division_y,rank_y,rating_y,division
+Billy,O'Bryan,hustle,,,,,,,,
+Trip,Crowley,hustle,Space Cowboys,open,85.0,1312.3,men,,,
+Austin,Taylor,hustle,Dirty Bird,mixed,,,,43.0,1478.32,mixed
+Lukas,McClamrock,hustle,Chain Lightning,open,4.0,2211.89,men,,,
+Bradley,Seuntjens,hustle,Hooch,open,64.0,1448.57,men,,,
+Michael,Fairley,hustle,Chain Lightning,open,4.0,2211.89,men,,,
+Brett,Hulsmeyer,hustle,Chain Lightning,open,4.0,2211.89,men,,,
+Justin,Burnett,hustle,'Shine,mixed,,,,12.0,1851.08,mixed
+Christian,Olsen,hustle,,,,,,,,
+Bobby,Ley,hustle,,,,,,,,
+Walter,Ellard,hustle,Roma Ultima,mixed,,,,52.0,1354.1,mixed
+Tyler,Randall,hustle,Chain Lightning,open,4.0,2211.89,men,,,
+Matt,Smith,hustle,Alibi,open,158.0,887.94,men,,,
+Jakeem,Polk,hustle,Dirty Bird,mixed,,,,43.0,1478.32,mixed
+Ryan,Flick,hustle,Delirium,open,30.0,1678.68,men,,,
+Hayden,Austin-Knab,hustle,Chain Lightning,open,4.0,2211.89,men,,,
+Adam,Miller,hustle,Chain Lightning,open,4.0,2211.89,men,,,
+Jeremy,Langdon,hustle,Chain Lightning,open,4.0,2211.89,men,,,
+Franky,Fernandez,hustle,,,,,,,,
+Karl,Ekwurtzel,hustle,,,,,,,,
+Bradley,Fleming,hustle,Space Force,mixed,,,,9.0,1890.7,mixed
+Dean,Ramsey,hustle,,,,,,,,
+Mike,Kobyra,hustle,Chain Lightning,open,4.0,2211.89,men,,,
+Jacob,Blackman,hustle,Lost Boys,open,61.0,1465.93,men,,,
+Eli,Motycka,hustle,'Shine,mixed,,,,12.0,1851.08,mixed
+Andrew,Thai,hustle,Little Red Wagon,open,56.0,1497.91,men,,,
+Cam,Copeland,hustle,Alliance,open,37.0,1627.37,men,,,
+Aidan,Downey,hustle,,,,,,,,
+Trenton,Spinks,hustle,Space Force,mixed,,,,9.0,1890.7,mixed
+Tanner,Robinson,hustle,Chain Lightning,open,4.0,2211.89,men,,,
+Tannon,Hedges,hustle,Chain Lightning,open,4.0,2211.89,men,,,
+Michael,Johnson,hustle,,,,,,,,
+Brandon,Beers,hustle,Alliance,open,37.0,1627.37,men,,,
+Will,Bianca,hustle,,,,,,,,
+Mark,Evans,sol,,,,,,,,
+Mark,Henke,sol,,,,,,,,
+Reese,Bowman,sol,,,,,,,,
+Evan,Swiatek,sol,,,,,,,,
+Eric,Brodbeck,sol,,,,,,,,
+Jake,Reinhardt,sol,,,,,,,,
+Jack,Dowling,sol,,,,,,,,
+Noah,Chambers,sol,,,,,,,,
+Jacob,Kaplan,sol,,,,,,,,
+Nick,Loughran,sol,Waterloo,mixed,,,,30.0,1615.31,mixed
+Elliott,Moore,sol,,,,,,,,
+Kyle,Henke,sol,,,,,,,,
+Jordan,Salazar,sol,,,,,,,,
+Mick,Walter,sol,,,,,,,,
+Brandon,Dial,sol,,,,,,,,
+Jackson,Potts,sol,,,,,,,,
+Jake,Radack,sol,,,,,,,,
+Oliver,Fay,sol,,,,,,,,
+Joey,Wylie,sol,,,,,,,,
+Matthew,Armour,sol,,,,,,,,
+Mason,Zetsch,sol,STL Lounar,open,17.0,1909.35,men,,,
+Gavin,Babbitt,sol,,,,,,,,
+Jake,Worthington,sol,,,,,,,,
+Duncan,Fitzgerald,sol,,,,,,,,
+Joshua,Zdrodowski,sol,,,,,,,,
+Ivan,Tran,glory,Sprocket,mixed,,,,6.0,1924.96,mixed
+Jay,Clark,glory,,,,,,,,
+Benjamin,Sadok,glory,,,,,,,,
+Cole,Moore,glory,Dig,open,,,,,,
+Turner,Allen,glory,Dig,open,,,,,,
+Topher,Davis,glory,Dig,open,,,,,,
+Simon,Carapella,glory,Dig,open,,,,,,
+Peter,Boerth,glory,Dig,open,,,,,,
+Luca,Harwood,glory,Sprout,open,26.0,1745.77,men,,,
+Rocco,Linehan,glory,,,,,,,,
+Oscar,Graff,glory,Dig,open,,,,,,
+Jac,Carreiro,glory,Dig,open,,,,,,
+Gabe,Colton,glory,,,,,,,,
+Cole,Davis-Brand,glory,Dig,open,,,,,,
+Zach,Singer,glory,Sprocket,mixed,,,,6.0,1924.96,mixed
+Nathanial,Dick,glory,,,,,,,,
+Gustav,Haflin,glory,Dig,open,,,,,,
+Colin,Sunde,glory,Scoop,open,32.0,1675.57,men,,,
+Colin,Sunde,glory,Scoop,open,253.0,48.49,men,,,
+Tyler,Chan,glory,Dig,open,,,,,,
+Chris,Bartoli,glory,Sprout,open,26.0,1745.77,men,,,
+Caelan,McSweeney,glory,Dig,open,,,,,,
+Matthew,Nightingale,flyers,Raleigh-Durham United,open,12.0,2006.62,men,,,
+Tobias,Brooks,flyers,Raleigh-Durham United,open,12.0,2006.62,men,,,
+Sol,Yanuck,flyers,,,,,,,,
+Henry,Fisher,flyers,,,,,,,,
+Seth,Weaver,flyers,,,,,,,,
+Dylan,Hawkins,flyers,Ring of Fire,open,6.0,2180.66,men,,,
+Grayson,Sanner,flyers,Toro,mixed,,,,20.0,1737.48,mixed
+Terrence,Mitchell,flyers,Toro,mixed,,,,20.0,1737.48,mixed
+Matt,Tucker,flyers,Ring of Fire,open,6.0,2180.66,men,,,
+Ethan,Bloodworth,flyers,Ring of Fire,open,6.0,2180.66,men,,,
+Allan,Laviolette,flyers,PoNY,open,2.0,2333.94,men,,,
+William,Coffin,flyers,Raleigh-Durham United,open,12.0,2006.62,men,,,
+Ramzi,Musleh,flyers,,,,,,,,
+Drew,Swanson,flyers,,,,,,,,
+Anders,Juengst,flyers,Ring of Fire,open,6.0,2180.66,men,,,
+Suraj,Madiraju,flyers,Ring of Fire,open,6.0,2180.66,men,,,
+Cooper,Williams,flyers,,,,,,,,
+Jacob,Fairfax,flyers,Ring of Fire,open,6.0,2180.66,men,,,
+Cam,Bellando,flyers,Raleigh-Durham United,open,12.0,2006.62,men,,,
+Walker,Matthews,flyers,Ring of Fire,open,6.0,2180.66,men,,,
+Michael,Lee,flyers,Toro,mixed,,,,20.0,1737.48,mixed
+John,Wellers,flyers,Big Wrench,open,71.0,1395.01,men,,,
+Daniel,Zhu,flyers,Toro,mixed,,,,20.0,1737.48,mixed
+Ty,Naquin,flyers,Raleigh-Durham United,open,12.0,2006.62,men,,,
+Christian,Belus,flyers,,,,,,,,
+Alexander,Wilcox,flyers,,,,,,,,
+Marc,Rovner,flyers,,,,,,,,
+Dillon,Bruer,flyers,Raleigh-Durham United,open,12.0,2006.62,men,,,
+Elijah,Long,flyers,Ring of Fire,open,6.0,2180.66,men,,,
+Clint,McSherry,flyers,Raleigh-Durham United,open,12.0,2006.62,men,,,
+Andrew,Vande Berg,flyers,,,,,,,,
+Trevor,Lynch,flyers,Ring of Fire,open,6.0,2180.66,men,,,
+Ben,Snell,flyers,Ring of Fire,open,6.0,2180.66,men,,,
+Jesse,Johnson,union,Chicago Machine,open,5.0,2189.71,men,,,
+Gabe,Schoepke,union,,,,,,,,
+Ray,Mauntel,union,STL Lounar,open,17.0,1909.35,men,,,
+Joel,Willison,union,,,,,,,,
+Jack,Shanahan,union,Chicago Machine,open,5.0,2189.71,men,,,
+Ian,Falck,union,,,,,,,,
+Wilson,Matthews,union,Raleigh-Durham United,open,12.0,2006.62,men,,,
+Nate,Astrom,union,,,,,,,,
+Reid,Martin,union,,,,,,,,
+Sam,Kaminsky,union,Chicago Parlay,mixed,,,,27.0,1637.51,mixed
+Dex,Dremann,union,,,,,,,,
+Jeff,Weis,union,,,,,,,,
+Cullen,Baker,union,,,,,,,,
+Cal,Tornabene,union,,,,,,,,
+Joe,Cercello,union,,,,,,,,
+Milan,Rivas,union,,,,,,,,
+Jake,Steslicki,union,Chicago Machine,open,5.0,2189.71,men,,,
+Yipeng,Wang,union,,,,,,,,
+Sam,Gabrielson,union,Raleigh-Durham United,open,12.0,2006.62,men,,,
+Benjamin,Preiss,union,Chicago Machine,open,5.0,2189.71,men,,,
+John,Lithio,union,Mystery Box,open,43.0,1597.54,men,,,
+Dylan,Power,union,Mad Men,open,25.0,1757.27,men,,,
+Jake,Rubin-Miller,union,,,,,,,,
+Jerry,Kelly,union,,,,,,,,
+Joe,White,union,Chicago Machine,open,5.0,2189.71,men,,,
+Andrew,Sjogren,union,Chicago Machine,open,5.0,2189.71,men,,,
+Alex,Atkins,summit,,,,,,,,
+Zeke,Thoreson,summit,,,,,,,,
+Jay,Froude,summit,,,,,,,,
+Atkin,Arnstein,summit,,,,,,,,
+Felix,Pronove,summit,,,,,,,,
+Logan,Pruess,summit,,,,,,,,
+Matt,Jackson,summit,,,,,,,,
+Jonathan,Nethercutt,summit,,,,,,,,
+Danny,Landesman,summit,,,,,,,,
+Sam,Goldstein,summit,shame.,mixed,,,,1.0,2167.21,mixed
+Rodrigo,Gould Rodriguez,summit,,,,,,,,
+Seth,Faris,summit,,,,,,,,
+Chance,Cochran,summit,,,,,,,,
+Saeed,Semrin,summit,,,,,,,,
+Dennis,Bechis,summit,,,,,,,,
+Charles,Cannon,summit,,,,,,,,
+Thomas,Brewster,summit,shame.,mixed,,,,1.0,2167.21,mixed
+Connor,Olson,summit,,,,,,,,
+Mathieu,Agee,summit,,,,,,,,
+Tyler,Nguyen,summit,,,,,,,,
+David,Yu,summit,Flight Club,mixed,,,,28.0,1635.27,mixed
+Sandford,Brown,summit,,,,,,,,
+Sten,Larson,summit,,,,,,,,
+Kai,Marshall,summit,,,,,,,,
+Cody,Johnston,summit,,,,,,,,
+Chris,Ward,summit,,,,,,,,
+Nanda,Min-Fink,summit,,,,,,,,
+Nicholas,Snuszka,summit,shame.,mixed,,,,1.0,2167.21,mixed
+Noah,Coolman,summit,,,,,,,,
+Erik,Hotaling,summit,,,,,,,,
+Aylen,Learned,summit,,,,,,,,
+Jeremy,Knopf,summit,Truck Stop,open,1.0,2499.23,men,,,
+Nathan,Buchholz,summit,,,,,,,,
+Quinn,Finer,summit,,,,,,,,
+Alex,Tatum,summit,,,,,,,,
+Jake,Floyd,legion,,,,,,,,
+Carson,Wilder,legion,,,,,,,,
+Myles,Armstrong,legion,Public Enemy,mixed,,,,19.0,1738.53,mixed
+Alec,Wilson Holliday,legion,,,,,,,,
+Emmanuel,Bilolo,legion,,,,,,,,
+Zachary,Wenner,legion,,,,,,,,
+Cameron,Guidry,legion,Kansas City United,mixed,,,,31.0,1595.15,mixed
+Jason,Hustad,legion,,,,,,,,
+Brian,Street,legion,Waterloo,mixed,,,,30.0,1615.31,mixed
+Daniel,Welkener,legion,Public Enemy,mixed,,,,19.0,1738.53,mixed
+Connor,DeLuna,legion,Public Enemy,mixed,,,,19.0,1738.53,mixed
+Nathaniel,Austin,legion,Scoober Heroes,mixed,,,,228.0,310.05,mixed
+Luke,Norby,legion,Risky Business,mixed,,,,85.0,1126.47,mixed
+Eric,Carter,legion,Public Enemy,mixed,,,,19.0,1738.53,mixed
+Daniel,Winter,legion,,,,,,,,
+Tommy,Trompeter,legion,,,,,,,,
+Joseph,Welkener,legion,Public Enemy,mixed,,,,19.0,1738.53,mixed
+Drew,Laird,legion,Memphis Pharaohs,open,172.0,825.27,men,,,
+Darren,Phillips,legion,,,,,,,,
+Watson,Anderson,legion,,,,,,,,
+John,Shelley,legion,,,,,,,,
+Max,Hamilton,legion,,,,,,,,
+Samuel,Roberts,legion,BARNSTORM,open,77.0,1374.75,men,,,
+Ben,Rogers,legion,,,,,,,,
+Nicholas,DiGiorgio,legion,Public Enemy,mixed,,,,19.0,1738.53,mixed
+Jack,Wooldridge,legion,,,,,,,,
+Tanner,Roberts,legion,,,,,,,,
+Ben,Price,legion,,,,,,,,
+Xavier,Schafer,breeze,Red Wolves,open,83.0,1347.98,men,,,
+Isaac,Lee,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Charlie,McCutcheon,breeze,,,,,,,,
+AJ,Merriman,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Zachary,Burpee,breeze,Sprout,open,26.0,1745.77,men,,,
+Tyler,Monroe,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Thomas,Edmonds,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Zach,Norrbom,breeze,,,,,,,,
+Luke,Rehfuss,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Rowan,McDonnell,breeze,,,,,,,,
+Cole,Jurek,breeze,Truck Stop,open,1.0,2499.23,men,,,
+William,Tober,breeze,,,,,,,,
+Kevin,Healey,breeze,Vault,open,13.0,2004.36,men,,,
+Brandon,Lamberty,breeze,Vault,open,13.0,2004.36,men,,,
+Rhys,Bergeron,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Elliot,Bonnet,breeze,,,,,,,,
+Jacques,Nissen,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Rami,Paust,breeze,Vault,open,13.0,2004.36,men,,,
+David,Bloodgood,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Andrew,Roy,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Mitchell,Blaha,breeze,Red Wolves,open,83.0,1347.98,men,,,
+Miles, Grovic,breeze,,,,,,,,
+Tanner,Gesell,breeze,,,,,,,,
+Jeff,Wodatch,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Gus,Norrbom,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Ryan,Weaver,breeze,Vault,open,13.0,2004.36,men,,,
+Jonny,Malks,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Jasper,Tom,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Frederick,Farah,breeze,Truck Stop,open,1.0,2499.23,men,,,
+Jace,Dean,breeze,Oakgrove Boys,open,52.0,1527.68,men,,,
+Nathan,Ploeger,mechanix,Enigma,open,166.0,839.67,men,,,
+Gregory,Moreno,mechanix,,,,,,,,
+Justin,Wollin,mechanix,Knights of Ni,open,73.0,1385.85,men,,,
+Carson,Chamberlain,mechanix,Tanasi,open,28.0,1732.45,men,,,
+James,Kloss,mechanix,,,,,,,,
+Jake,Felton,mechanix,,,,,,,,
+Nic,Lanas,mechanix,,,,,,,,
+Marco,Dewey,mechanix,,,,,,,,
+Brendan,Gessner,mechanix,Knights of Ni,open,73.0,1385.85,men,,,
+Richard,Ware,mechanix,Spectre,mixed,,,,88.0,1108.62,mixed
+Bradley,Kennis,mechanix,Colonels,open,55.0,1503.69,men,,,
+Elliot,Davis,mechanix,Diesel,open,130.0,1040.66,men,,,
+Terry,Gaither,mechanix,,,,,,,,
+Aiden,Rudy,mechanix,,,,,,,,
+Stephen,Grondin,mechanix,Toast!,mixed,,,,150.0,803.62,mixed
+Conrad,Nguyen,mechanix,Beacon,open,47.0,1563.24,men,,,
+Matthew,Bell,mechanix,Diesel,open,130.0,1040.66,men,,,
+Colin,Beauregard,mechanix,Beacon,open,47.0,1563.24,men,,,
+Noah,Sawyer,mechanix,MARC,open,234.0,402.7,men,,,
+Max,Grove,havoc,,,,,,,,
+Brendan,Keith,havoc,Drought,open,78.0,1374.11,men,,,
+Matt,Bennett,havoc,,,,,,,,
+Xavier,Daniel,havoc,,,,,,,,
+Corey,Tolbert,havoc,,,,,,,,
+Marshall,Dinges,havoc,,,,,,,,
+Ben,Lewis,havoc,,,,,,,,
+Brendan,Adams,havoc,,,,,,,,
+Connor,Ughetta,havoc,,,,,,,,
+Kyle,Kolafa,havoc,,,,,,,,
+Caiden,Burt,havoc,,,,,,,,
+Dylan,Zeringue,havoc,,,,,,,,
+Steven,Kelly,havoc,,,,,,,,
+Kevin,Land,havoc,,,,,,,,
+Brian,Gfroerer,havoc,,,,,,,,
+Zachary,Cotter,havoc,,,,,,,,
+Francisco,Gomez,havoc,,,,,,,,
+Jimmy,Zuraw,havoc,,,,,,,,
+Shaun,Seidenberger,havoc,,,,,,,,
+Toya,Chukwumerije ,havoc,,,,,,,,
+Mark,Baldauf,havoc,,,,,,,,
+Elliot,Sakach,havoc,,,,,,,,
+Garrett,Wilson,havoc,,,,,,,,
+Brandon,Lin,havoc,Goosebumps,mixed,,,,142.0,843.61,mixed
+Mitch,Lutz,havoc,,,,,,,,
+Bryan,Downey,havoc,,,,,,,,
+Gregory,Plaia Jr.,havoc,,,,,,,,
+Ethan,Niedzwiedz,havoc,,,,,,,,
+Matt,Lyle,havoc,,,,,,,,
+Dane,Bossert,havoc,,,,,,,,
+Conner,Blalack,alleycats,Colonels,open,55.0,1503.69,men,,,
+Rick,Gross,alleycats,Omen,open,27.0,1739.79,men,,,
+Cameron,Brock,alleycats,,,,,,,,
+Jeremiah,Branson,alleycats,Tanasi,open,28.0,1732.45,men,,,
+Sam,Good,alleycats,,,,,,,,
+Levi,Jacobs,alleycats,,,,,,,,
+Lucas,Coniaris,alleycats,Omen,open,27.0,1739.79,men,,,
+William,Wettengel,alleycats,Omen,open,27.0,1739.79,men,,,
+Jason,Kempe,alleycats,,,,,,,,
+Jake,Kenniv,alleycats,Omen,open,27.0,1739.79,men,,,
+Seth,Gudeman,alleycats,Colonels,open,55.0,1503.69,men,,,
+Cody,Curran,alleycats,STL Lounar,open,17.0,1909.35,men,,,
+Drew,Happe,alleycats,Colonels,open,55.0,1503.69,men,,,
+Nick,Hutton,alleycats,,,,,,,,
+Xavier,Payne,alleycats,Chicago Machine,open,5.0,2189.71,men,,,
+Jack,Havey,alleycats,Omen,open,27.0,1739.79,men,,,
+Collin,Rassel,alleycats,Spectre,mixed,,,,88.0,1108.62,mixed
+Tanner,Graham,alleycats,,,,,,,,
+Joey,Cari,alleycats,,,,,,,,
+Travis,Carpenter,alleycats,Omen,open,27.0,1739.79,men,,,
+Elliot, Hawkins,alleycats,,,,,,,,
+Ben,Close,alleycats,,,,,,,,
+Ben,Landry,alleycats,,,,,,,,
+Joel,Close,alleycats,,,,,,,,
+John,Jones,alleycats,,,,,,,,
+Robby,Davenport,alleycats,,,,,,,,
+Michael,Kiyoi,aviators,,,,,,,,
+Brent,George,aviators,,,,,,,,
+Landon,Shank,aviators,,,,,,,,
+Isaac,Hsu,aviators,OC Crows,open,66.0,1436.89,men,,,
+Kenta,Kawaguchi,aviators,,,,,,,,
+Andrew,Padula,aviators,SoCal Condors,open,22.0,1852.4,men,,,
+Sean,McDougall,aviators,SoCal Condors,open,22.0,1852.4,men,,,
+Cy,Toriello,aviators,Hazard,open,74.0,1383.45,men,,,
+Cy,Toriello,aviators,Hazard,open,139.0,974.12,men,,,
+Mitchell,Steiner,aviators,SoCal Condors,open,22.0,1852.4,men,,,
+Leo,Decter,aviators,,,,,,,,
+Steven,Moliterno,aviators,Robot,mixed,,,,67.0,1238.99,mixed
+Kevin,Goldberg,aviators,,,,,,,,
+Jason,Lee,aviators,Lotus,mixed,,,,39.0,1495.04,mixed
+Zac,Schakner,aviators,,,,,,,,
+Everest,Shapiro,aviators,SoCal Condors,open,22.0,1852.4,men,,,
+Daniel,Brunker,aviators,SoCal Condors,open,22.0,1852.4,men,,,
+Kobi,McCracken,aviators,SoCal Condors,open,22.0,1852.4,men,,,
+Sam,Cook,aviators,,,,,,,,
+Will,Turner,aviators,,,,,,,,
+Eddie,Finley,aviators,,,,,,,,
+Mateo,Dominguez,aviators,SoCal Condors,open,22.0,1852.4,men,,,
+Pawel,Janas,aviators,Chicago Machine,open,5.0,2189.71,men,,,
+Garrett,Santi,aviators,,,,,,,,
+Rhys,Gretsch,aviators,Red Wolves,open,83.0,1347.98,men,,,
+Tomas,Fong,aviators,OC Crows,open,66.0,1436.89,men,,,
+Bryan,Nguyen,aviators,Lotus,mixed,,,,39.0,1495.04,mixed
+Brandon,Van Deusen,aviators,,,,,,,,
+Andrew,Meshnick,radicals,,,,,,,,
+Jake,Carrico,radicals,Mad Men,open,25.0,1757.27,men,,,
+Brian,Hart,radicals,,,,,,,,
+Anthony,Gutowsky,radicals,Mad Men,open,25.0,1757.27,men,,,
+Charlie, Benforado,radicals,,,,,,,,
+Joshua,Wilson,radicals,Mad Udderburn,mixed,,,,86.0,1121.14,mixed
+Victor,Luo,radicals,Chicago Machine,open,5.0,2189.71,men,,,
+David,Nester,radicals,Mad Men,open,25.0,1757.27,men,,,
+Jacob,Wham,radicals,Mad Men,open,25.0,1757.27,men,,,
+Tyler, Williams,radicals,,,,,,,,
+Alex,Gravatt,radicals,,,,,,,,
+Sterling,Knoche,radicals,Mad Men,open,25.0,1757.27,men,,,
+Nico,Ranabhat,radicals,Mad Men,open,25.0,1757.27,men,,,
+Avery,Johnson,radicals,NOISE,mixed,,,,8.0,1893.89,mixed
+Mac,Weber,radicals,Mad Men,open,25.0,1757.27,men,,,
+Shane,Otis,radicals,Mad Men,open,25.0,1757.27,men,,,
+Noah,Nicol,radicals,Bux,open,96.0,1288.86,men,,,
+Jack,Nelson,radicals,Mad Men,open,25.0,1757.27,men,,,
+Daniel,Garlock,radicals,NOISE,mixed,,,,8.0,1893.89,mixed
+Val,Post,radicals,,,,,,,,
+Biz,Schlaefer,radicals,,,,,,,,
+Pat,Shriwise,radicals,,,,,,,,
+Max,Sample,radicals,,,,,,,,
+John,Tan,radicals,Mad Men,open,25.0,1757.27,men,,,
+Matt,Grinde,radicals,,,,,,,,
+Kelsen,Alexander,radicals,NOISE,mixed,,,,8.0,1893.89,mixed
+Mitchell,McCarthy,radicals,,,,,,,,
+Joe,Leibforth,radicals,,,,,,,,
+Ted,Schewe,radicals,Mad Men,open,25.0,1757.27,men,,,
+Luke,Marks,radicals,Mad Men,open,25.0,1757.27,men,,,
+Jack,Kelly,radicals,NOISE,mixed,,,,8.0,1893.89,mixed
+Kevin,Pettit-Scantling,radicals,,,,,,,,
+Gabe,Vordick,radicals,houSE,open,,,,,,
+Pieran,Robert,radicals,NOISE,mixed,,,,8.0,1893.89,mixed
+Sam,Stark,radicals,,,,,,,,
+Kai,Marcus,radicals,,,,,,,,
+Bret,Bergmeier,windchill,Drag'n Thrust,mixed,,,,2.0,2072.18,mixed
+William,Brandt,windchill,,,,,,,,
+Bryan,Vohnoutka,windchill,Drag'n Thrust,mixed,,,,2.0,2072.18,mixed
+Noah,Hanson,windchill,Sub Zero,open,19.0,1865.58,men,,,
+Jordan,Taylor,windchill,Sub Zero,open,19.0,1865.58,men,,,
+Tyler,Thomegreene,windchill,DingWop,open,,,,,,
+Ian,McCosky,windchill,,,,,,,,
+Sebastian,Brauer,windchill,Sub Zero,open,19.0,1865.58,men,,,
+Michael,Jordan,windchill,,,,,,,,
+Will,Casperson,windchill,Sub Zero,open,19.0,1865.58,men,,,
+Colin,Berry,windchill,Sub Zero,open,19.0,1865.58,men,,,
+Tanner,Barcus,windchill,Drag'n Thrust,mixed,,,,2.0,2072.18,mixed
+Michael,Petersen,windchill,,,,,,,,
+Gordon,Larson,windchill,Sub Zero,open,19.0,1865.58,men,,,
+Sam,Berglund,windchill,Drag'n Thrust,mixed,,,,2.0,2072.18,mixed
+Paul,Krenik,windchill,Sub Zero,open,19.0,1865.58,men,,,
+Matej,Petrovic,windchill,Sub Zero,open,19.0,1865.58,men,,,
+Cameron,Lacy,windchill,Minnesota Star Power,mixed,,,,60.0,1295.76,mixed
+Josh,Klane,windchill,Drag'n Thrust,mixed,,,,2.0,2072.18,mixed
+Leo,Sovell-Fernandez,windchill,Sub Zero,open,19.0,1865.58,men,,,
+Matthew,Rehder,windchill,Ring of Fire,open,6.0,2180.66,men,,,
+Greg,Cousins,windchill,,,,,,,,
+James,Kittlesen,windchill,Bantr,mixed,,,,76.0,1184.05,mixed
+Anthony,Jirele,windchill,Mallard,open,29.0,1728.26,men,,,
+Mickey,Walsh,windchill,,,,,,,,
+Dylan,DeClerck,windchill,Drag'n Thrust,mixed,,,,2.0,2072.18,mixed
+Brandon,Matis,windchill,Drag'n Thrust,mixed,,,,2.0,2072.18,mixed
+Quinn,Snider,windchill,General Strike,open,16.0,1936.6,men,,,
+Tristan,Van de Moortele,windchill,,,,,,,,
+Paul,Hooley,royal,Mephisto,open,23.0,1782.97,men,,,
+William,St-Pierre,royal,Mephisto,open,23.0,1782.97,men,,,
+Charles,Guay,royal,Mephisto,open,23.0,1782.97,men,,,
+Sam,Warrick,royal,,,,,,,,
+Raphael,Salvas,royal,Mephisto,open,23.0,1782.97,men,,,
+Felix,Leonard,royal,Mephisto,open,23.0,1782.97,men,,,
+Julien,Bernat,royal,Mephisto,open,23.0,1782.97,men,,,
+Ywan,Cohonner,royal,Mephisto,open,23.0,1782.97,men,,,
+Raphaël,Lalonde-Landry,royal,Mephisto,open,23.0,1782.97,men,,,
+Thomas,Lalonde-Landry,royal,Mephisto,open,23.0,1782.97,men,,,
+Antoine,Dubé,royal,,,,,,,,
+Jacob,Duquette,royal,General Strike,open,16.0,1936.6,men,,,
+Phillipe,Le Bourdais,royal,,,,,,,,
+Tobe,Decraene,royal,,,,,,,,
+Calvin,Coulbury,royal,,,,,,,,
+Antoine,Rousseau,royal,Mephisto,open,23.0,1782.97,men,,,
+Christophe,Tremblay-Joncas,royal,,,,,,,,
+Quentin,Bonnaud,royal,,,,,,,,
+Jean-Levy,Champagne,royal,LAX,mixed,,,,,,
+Liam,McKeown,royal,Mephisto,open,23.0,1782.97,men,,,
+Melvyn,Brichet,royal,Mephisto,open,23.0,1782.97,men,,,
+Kevin,Groulx,royal,,,,,,,,
+Kevin,Quinlan,royal,Mephisto,open,23.0,1782.97,men,,,
+Dylan,Lacombe-Burgoyne,royal,,,,,,,,
+Jakob,Brissette,royal,Furious George,open,11.0,2057.44,men,,,
+Ryan,Osgar,empire,PoNY,open,2.0,2333.94,men,,,
+Oscar,Kohut,empire,XIST,mixed,,,,7.0,1920.86,mixed
+Josue,Alorro,empire,XIST,mixed,,,,7.0,1920.86,mixed
+Ben,Jagt,empire,,,,,,,,
+Charles,Weinberg,empire,Mystery Box,open,43.0,1597.54,men,,,
+Ethan,Fortin,empire,Dig,open,,,,,,
+Solomon,Rueschemeyer-Bailey,empire,Dig,open,,,,,,
+Elliott,Chartock,empire,,,,,,,,
+Jack,Williams,empire,PoNY,open,2.0,2333.94,men,,,
+Jeff,Holm,empire,,,,,,,,
+Oliver,Chartock,empire,XIST,mixed,,,,7.0,1920.86,mixed
+Mike,Drost,empire,,,,,,,,
+Axel,Agami,empire,,,,,,,,
+Matt,LaBar,empire,Garden State Ultimate,open,31.0,1676.12,men,,,
+Shashank,Alladi,empire,PoNY,open,2.0,2333.94,men,,,
+John,Randolph,empire,PoNY,open,2.0,2333.94,men,,,
+Bretton,Tan,empire,,,,,,,,
+Ryan,Drost,empire,XIST,mixed,,,,7.0,1920.86,mixed
+Antoine,Davis,empire,PoNY,open,2.0,2333.94,men,,,
+Marques,Brownlee,empire,PoNY,open,2.0,2333.94,men,,,
+Matthias,Ling,empire,RAMP,mixed,,,,29.0,1622.75,mixed
+Gavin,May,spiders,Zyzzyva,open,20.0,1860.21,men,,,
+Rafael,Castro,spiders,,,,,,,,
+Robin,Vickers Batzdorf,spiders,,,,,,,,
+Walker,Frankenberg,spiders,Sunshine,mixed,,,,26.0,1647.42,mixed
+Dylan,Nice,spiders,Zyzzyva,open,20.0,1860.21,men,,,
+Payton,Laurie,spiders,Classy,mixed,,,,51.0,1383.8,mixed
+Robert,Yeagle,spiders,Polar Bears,mixed,,,,18.0,1761.21,mixed
+Justin,Lim,spiders,,,,,,,,
+Jace,Bruner,spiders,,,,,,,,
+Daniel,Ritthaler,spiders,Rhino Slam!,open,10.0,2085.8,men,,,
+Sawyer,Thompson,spiders,Revolver,open,3.0,2245.3,men,,,
+Ridge,Huang,spiders,Zyzzyva,open,20.0,1860.21,men,,,
+Chris,Lung,spiders,,,,,,,,
+Jake,Thorne,spiders,,,,,,,,
+Matthew,Burke,spiders,,,,,,,,
+Victor,Zhou,spiders,Donuts,mixed,,,,49.0,1396.52,mixed
+Morgan,Sommer,spiders,Sunshine,mixed,,,,26.0,1647.42,mixed
+Raekwon,Adkins,spiders,Zyzzyva,open,20.0,1860.21,men,,,
+Evan, Magsig,spiders,,,,,,,,
+Aaron,Rosenthal,spiders,Zyzzyva,open,20.0,1860.21,men,,,
+Stephen,Dolan,spiders,Zyzzyva,open,20.0,1860.21,men,,,
+Dexter,Clyburn,spiders,Zyzzyva,open,20.0,1860.21,men,,,
+Conor,Bauman,spiders,BW Ultimate,mixed,,,,36.0,1511.22,mixed
+Keenan,Laurence,spiders,,,,,,,,
+Max,Williams,spiders,Zyzzyva,open,20.0,1860.21,men,,,
+Eli,Kerns,spiders,,,,,,,,
+Wyatt,Berreman,spiders,BW Ultimate,mixed,,,,36.0,1511.22,mixed
+Dylan,Burns,spiders,Mischief,mixed,228.0,466.63,men,15.0,1830.88,mixed
+Sam,Kapalapa,spiders,,,,,,,,
+Christopher,Zaleski,phoenix,,,,,,,,
+Brandon,Pastor,phoenix,Loco,mixed,,,,24.0,1670.85,mixed
+Greg,Martin,phoenix,Rumspringa,open,80.0,1365.61,men,,,
+Mike,Campanella,phoenix,,,,,,,,
+Max,Trifillis,phoenix,Loco,mixed,,,,24.0,1670.85,mixed
+Tyler,DeGirolamo,phoenix,,,,,,,,
+Nate,Long,phoenix,Phantom,open,38.0,1624.98,men,,,
+Anthony,Prato,phoenix,,,,,,,,
+Dmitry,Suvorov,phoenix,Garden State Ultimate,open,31.0,1676.12,men,,,
+Eric,Witmer,phoenix,AMP,mixed,,,,3.0,2067.85,mixed
+Mark,Philipson,phoenix,Phantom,open,38.0,1624.98,men,,,
+Trevor,Griesman,phoenix,,,,,,,,
+James,Pollard,phoenix,Phantom,open,38.0,1624.98,men,,,
+Gavin,Abrahamsson,phoenix,Sprout,open,26.0,1745.77,men,,,
+Alex,Thorne,phoenix,,,,,,,,
+Jordan,Rhyne,phoenix,AMP,mixed,,,,3.0,2067.85,mixed
+Allan,Michel,phoenix,Phantom,open,38.0,1624.98,men,,,
+Nate,Little,phoenix,ColorBomb,mixed,,,,149.0,805.31,mixed
+Justin,Keller,phoenix,Loco,mixed,,,,24.0,1670.85,mixed
+Leo,Warren,phoenix,Loco,mixed,,,,24.0,1670.85,mixed
+David,Perry,phoenix,Garden State Ultimate,open,31.0,1676.12,men,,,
+Calvin,Trisolini,phoenix,,,,,,,,
+Ian,Dietrich,phoenix,Phantom,open,38.0,1624.98,men,,,
+Ethan,Holmgren,phoenix,Loco,mixed,,,,24.0,1670.85,mixed
+Matt,Hanna,phoenix,,,,,,,,
+Scott,Heyman,phoenix,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Sean,Mott,phoenix,PoNY,open,2.0,2333.94,men,,,
+Paul,Owens,phoenix,AMP,mixed,,,,3.0,2067.85,mixed
+Andres,Rodriguez,phoenix,,,,,,,,
+Eric,Nardelli,phoenix,AMP,mixed,,,,3.0,2067.85,mixed
+Reid,Duncan,thunderbirds,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Max,Sheppard,thunderbirds,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Jonathan,Mast,thunderbirds,Cleveland Crocs,mixed,,,,5.0,1936.51,mixed
+John,McMonigal,thunderbirds,,,,,,,,
+Noah,Celuch,thunderbirds,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Anson,Reppermund,thunderbirds,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Thomas,Hansen,thunderbirds,Pittsburgh Stealers,open,84.0,1327.67,men,,,
+Andrew, Thompson,thunderbirds,,,,,,,,
+Joe,Molder,thunderbirds,Pittsburgh Stealers,open,84.0,1327.67,men,,,
+Robin,Maillard,thunderbirds,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Zac,Byrnes,thunderbirds,Cleveland Crocs,mixed,,,,5.0,1936.51,mixed
+Charlie,Vukovic,thunderbirds,Cleveland Crocs,mixed,,,,5.0,1936.51,mixed
+Kenny,Furdella,thunderbirds,,,,,,,,
+Tyler,McCarthy,thunderbirds,Magma Bears,open,94.0,1291.23,men,,,
+Logan,Call,thunderbirds,Bomb Squad,open,115.0,1144.34,men,,,
+Anil,Driehuys,thunderbirds,,,,,,,,
+Pete,Zaccardi,thunderbirds,,,,,,,,
+Chris,Graber,thunderbirds,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Will,Hoffenkamp,thunderbirds,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Connor,Newell,thunderbirds,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Ryan,Kindell,thunderbirds,Hazard,open,74.0,1383.45,men,,,
+Ryan,Kindell,thunderbirds,Hazard,open,139.0,974.12,men,,,
+David,Braden,thunderbirds,Flying Dutchmen,open,75.0,1377.54,men,,,
+Benjamin,Attal,thunderbirds,Pittsburgh Port Authority,mixed,,,,38.0,1501.11,mixed
+Malachi,Marshall,thunderbirds,Chimney,open,117.0,1119.57,men,,,
+Mahith,Edula,thunderbirds,Pittsburgh Stealers,open,84.0,1327.67,men,,,
+Kevin,Nicholl,thunderbirds,Chimney,open,117.0,1119.57,men,,,
+Marcel,Oliart,thunderbirds,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Jimmy,Towle,thunderbirds,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Dan,Nichols,thunderbirds,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Alex,Mullen,thunderbirds,Pittsburgh Stealers,open,84.0,1327.67,men,,,
+Michael,Dillard,thunderbirds,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Carl,Johnson,thunderbirds,Pittsburgh Temper,open,39.0,1624.71,men,,,
+Matt,Viscido,thunderbirds,,,,,,,,
+Max,Devine,thunderbirds,,,,,,,,
+Avi,Taylor,nitro,Oregon Scorch,mixed,,,,23.0,1676.76,mixed
+Ben,Thoennes,nitro,Rhino Slam!,open,10.0,2085.8,men,,,
+David,Barram,nitro,Dark Star,open,,,,,,
+Scott,Radlauer,nitro,Dark Star,open,,,,,,
+Felix,Moren,nitro,Rhino Slam!,open,10.0,2085.8,men,,,
+Conner,Stillwell,nitro,Dark Star,open,,,,,,
+Cole,Eustis,nitro,Dark Star,open,,,,,,
+Kaenan,Combs,nitro,Dark Star,open,,,,,,
+Quinn,Buermeyer,nitro,Dark Star,open,,,,,,
+Jon,Snyder,nitro,Oregon Scorch,mixed,,,,23.0,1676.76,mixed
+Josh,Moore,nitro,Oregon Scorch,mixed,,,,23.0,1676.76,mixed
+Duncan,McNally,nitro,,,,,,,,
+Nate,Knutson,nitro,,,,,,,,
+Emmett,Warner,nitro,Dark Star,open,,,,,,
+Landon,Lavoie,nitro,Furious George,open,11.0,2057.44,men,,,
+Julian,Saunt,nitro,,,,,,,,
+Antonio,Rueda,nitro,Dark Star,open,,,,,,
+Henry,Wayte,nitro,Dark Star,open,,,,,,
+Bram,Allahdadi,nitro,Oregon Scorch,mixed,,,,23.0,1676.76,mixed
+Dan,Baumgartner,nitro,Dark Star,open,,,,,,
+Nick,Redmond,nitro,,,,,,,,
+Spencer,Latarski,nitro,,,,,,,,
+Zach,Heiden,nitro,Igneous Ultimate,mixed,,,,100.0,1045.47,mixed
+Patrick,Buermeyer,nitro,,,,,,,,
+Caleb,Campbell,nitro,Igneous Ultimate,mixed,,,,100.0,1045.47,mixed
+Lucas,Henry,nitro,Igneous Ultimate,mixed,,,,100.0,1045.47,mixed
+Jacob,Miller,shred,Space Force,mixed,,,,9.0,1890.7,mixed
+Nathan,Huff,shred,Shrimp,open,49.0,1555.23,men,,,
+Luke,Yorgason,shred,,,,,,,,
+Oscar,Brown,shred,Shrimp,open,49.0,1555.23,men,,,
+Devon,Terry,shred,,,,,,,,
+Trey,Taylor,shred,,,,,,,,
+Chad,Yorgason,shred,,,,,,,,
+Sean,Connole,shred,,,,,,,,
+Will,Selfridge,shred,Shrimp,open,49.0,1555.23,men,,,
+Ben,Field,shred,Slow,mixed,,,,13.0,1849.58,mixed
+McKay,Yorgason,shred,,,,,,,,
+Sean,McDonald,shred,,,,,,,,
+Ben,Ashton,shred,,,,,,,,
+Justin,Mecham,shred,Utah Hatu,open,113.0,1157.14,men,,,
+Zach,Burnside,shred,,,,,,,,
+Porter,Oyler,shred,Sundance Kids,open,53.0,1524.03,men,,,
+Zach,Wolfe,shred,Slow,mixed,,,,13.0,1849.58,mixed
+Jacob,Jahnke,shred,,,,,,,,
+Jace,Duennebeil,shred,Shrimp,open,49.0,1555.23,men,,,
+Tony,Mounga,shred,,,,,,,,
+Jonny,Hoffman,shred,Quick Draw,mixed,,,,53.0,1350.55,mixed
+Alex,Forsberg,shred,Shrimp,open,49.0,1555.23,men,,,
+Grant,Lindsley,shred,,,,,,,,
+Matt,Jamison,shred,Sundance Kids,open,53.0,1524.03,men,,,
+Kyle,Weinberg,shred,Shrimp,open,49.0,1555.23,men,,,
+Chase,Smith,shred,Quick Draw,mixed,,,,53.0,1350.55,mixed
+Joe,Merrill,shred,,,,,,,,
+Elijah,Jaime,shred,Space Force,mixed,,,,9.0,1890.7,mixed
+Jason,McKeen,shred,,,,,,,,
+Jordan,Kerr,shred,Chicago Machine,open,5.0,2189.71,men,,,
+Eugene,L'Heureux,shred,,,,,,,,
+Taylor,Barton,shred,Utah Hatu,open,113.0,1157.14,men,,,
+Grayson,Rettburg,shred,,,,,,,,
+Matt,Miller,growlers,,,,,,,,
+Bryce,Lozinski,growlers,SoCal Condors,open,22.0,1852.4,men,,,
+Aaron,Coble,growlers,California Burrito,mixed,,,,41.0,1488.22,mixed
+Maxwell,Hume,growlers,SoCal Condors,open,22.0,1852.4,men,,,
+Matt,Nelson,growlers,,,,,,,,
+Peter,Lenz,growlers,Seattle Mixtape,mixed,,,,11.0,1874.03,mixed
+Reggie,Sung,growlers,SoCal Condors,open,22.0,1852.4,men,,,
+Ethan,Li,growlers,California Burrito,mixed,,,,41.0,1488.22,mixed
+Tynan,Sander,growlers,,,,,,,,
+Thomas,Konogeris,growlers,SoCal Condors,open,22.0,1852.4,men,,,
+Kyle,Rubin,growlers,SoCal Condors,open,22.0,1852.4,men,,,
+Marshall,Crawford,growlers,Lawless,mixed,,,,17.0,1763.19,mixed
+Michael,Tran,growlers,SoCal Condors,open,22.0,1852.4,men,,,
+Daniel,Pryke,growlers,Skipjack,open,58.0,1490.71,men,,,
+Krishna,Gomatam,growlers,Skipjack,open,58.0,1490.71,men,,,
+Casey,Wu,growlers,shame.,mixed,,,,1.0,2167.21,mixed
+Jan,Szmanda,growlers,,,,,,,,
+Jordan,Queckboerner ,growlers,,,,,,,,
+Ben,Levinsky,growlers,,,,,,,,
+Oliver,Artus,growlers,Lawless,mixed,,,,17.0,1763.19,mixed
+Stefan,Samu,growlers,,,,,,,,
+Taylor,Gilman,growlers,Lawless,mixed,,,,17.0,1763.19,mixed
+Elijah,Salmon,growlers,,,,,,,,
+Jimmy,McGuinness,growlers,,,,,,,,
+Travis,Dunn,growlers,Lawless,mixed,,,,17.0,1763.19,mixed
+Caden,Sigerud,growlers,,,,,,,,
+Garrett,Hable,growlers,Lawless,mixed,,,,17.0,1763.19,mixed
+Casey,Shugarman,growlers,California Burrito,mixed,,,,41.0,1488.22,mixed
+Max,Gibson,growlers,Skipjack,open,58.0,1490.71,men,,,
+Zeppelin,Raunig,cascades,Sockeye,open,14.0,1999.88,men,,,
+Tony,Goss,cascades,,,,,,,,
+Lukas,Ambrose,cascades,SoCal Condors,open,22.0,1852.4,men,,,
+Willie,Saxen,cascades,,,,,,,,
+Jordan,Smith,cascades,SOUF,open,99.0,1255.01,men,,,
+Spencer,Lofink,cascades,Furious George,open,11.0,2057.44,men,,,
+Christian,Foster,cascades,Sockeye,open,14.0,1999.88,men,,,
+Marc,Munoz,cascades,,,,,,,,
+Garrett,Martin,cascades,Sockeye,open,14.0,1999.88,men,,,
+Jake,Shoyer,cascades,,,,,,,,
+Chris,Roach,cascades,Bullet Train,mixed,,,,77.0,1162.69,mixed
+Tommy,Li,cascades,,,,,,,,
+Jack,Brown,cascades,,,,,,,,
+Derek,Mourad,cascades,BFG,mixed,,,,4.0,1959.6,mixed
+Jasper,Dean,cascades,Sockeye,open,14.0,1999.88,men,,,
+Mason,Stone,cascades,Mystery Gang,open,67.0,1425.91,men,,,
+Emmet,Shipway,cascades,,,,,,,,
+Kenny,Lane III,cascades,,,,,,,,
+Tommy,Lin,cascades,BFG,mixed,,,,4.0,1959.6,mixed
+Michael,Buyco,cascades,Seattle Mixtape,mixed,,,,11.0,1874.03,mixed
+Cedar,Hines,cascades,Sockeye,open,14.0,1999.88,men,,,
+Ian,Sweeney,cascades,Rhino Slam!,open,10.0,2085.8,men,,,
+Steve,Mogielski,cascades,,,,,,,,
+Ben,Bolan,cascades,,,,,,,,
+Kamal,Raslan,cascades,Pegasus,mixed,,,,63.0,1259.42,mixed
+Phillip,Korolog,cascades,Switchback,open,60.0,1475.77,men,,,
+Jeremy,Norden,cascades,,,,,,,,
+Ray,Ye,cascades,Blueprint,open,24.0,1764.52,men,,,
+Gavin,Leahy,cascades,,,,,,,,
+Soren,Dahl,cascades,,,,,,,,
+Dominic,Jacobs,cascades,,,,,,,,
+Louie,Bertoncin,cascades,Bullet Train,mixed,,,,77.0,1162.69,mixed
+Dominic,Chiodi,cascades,Mystery Gang,open,67.0,1425.91,men,,,
+Brandon,Li,cascades,Seattle Mixtape,mixed,,,,11.0,1874.03,mixed
+Shane,Worthington,cascades,Sockeye,open,14.0,1999.88,men,,,
+Khalif,El-Salaam,cascades,Seattle Mixtape,mixed,,,,11.0,1874.03,mixed
+Brandon,Adibe,rush,Phoenix,open,21.0,1859.25,men,,,
+Akifumi,Muraoka,rush,GOAT,open,15.0,1972.27,men,,,
+Kevin,Jay,rush,GOAT,open,15.0,1972.27,men,,,
+Matthew,Lam,rush,,,,,,,,
+Oscar,Stonehouse,rush,,,,,,,,
+Nathan,Hsieh,rush,,,,,,,,
+Jackson,McKee,rush,,,,,,,,
+Justin,Luo,rush,,,,,,,,
+Zachary,Armstrong,rush,,,,,,,,
+Kevin,Tong,rush,Red Flag,mixed,,,,10.0,1876.21,mixed
+Luc,Comire,rush,GOAT,open,15.0,1972.27,men,,,
+Rui,Carvalho,rush,,,,,,,,
+Ryan,Poloz,rush,GOAT,open,15.0,1972.27,men,,,
+Martin,Shiu,rush,,,,,,,,
+Dax,Miller,rush,,,,,,,,
+Oren,Binnun,rush,UNION,mixed,,,,40.0,1491.86,mixed
+Daniel,Wong,rush,,,,,,,,
+Travis,Puckrin,rush,,,,,,,,
+Kelvin,Huang,rush,,,,,,,,
+Owen,Robinson,rush,Magma Bears,open,94.0,1291.23,men,,,
+Jamie,Millage,rush,,,,,,,,
+Phil,Turner,rush,,,,,,,,
+Keith,McRae,rush,GOAT,open,15.0,1972.27,men,,,
+Logan,Dufour,rush,,,,,,,,
+Adam,O'Donnell,rush,GOAT,open,15.0,1972.27,men,,,
+Ben,Klar,rush,,,,,,,,
+Araav,Sehgal,rush,,,,,,,,
+Cameron,Kennedy,rush,Phoenix,open,21.0,1859.25,men,,,
+Will,Turner,rush,,,,,,,,
+James,McClean,rush,,,,,,,,
+Chris,Chan,rush,,,,,,,,
+Adam,Turcotte,rush,GOAT,open,15.0,1972.27,men,,,
+Griffin,McKee,rush,,,,,,,,
