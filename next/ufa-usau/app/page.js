@@ -8,6 +8,9 @@ function calcTeamStats(players) {
   // {"first_name":"Trip","last_name":"Crowley","ufa_team":"hustle","club_team":"space cowboys","division":"open","rank":"85.0","rating":"1312.3"},
   const team_stats = {}; 
   for (let player of players) {
+    if (!player['ufa_team']) {
+      continue;
+    }
     if (!Object.hasOwn(team_stats, player['ufa_team'])) {
       team_stats[player['ufa_team']] = {
         name: player['ufa_team'],
@@ -18,19 +21,20 @@ function calcTeamStats(players) {
         mixed_rating_sum: 0,
         mixed_rating_mean: 0,
         num_non_club: 0,
-        unique_clubs: new Set()
+        unique_clubs: new Set(),
+        unique_open: new Set(),
+        unique_mixed: new Set()
       };
     }
     let team = team_stats[player['ufa_team']];
-    if (!player['ufa_team']) {
-      continue;
-    }
     if (player['division'] == 'open') {
       team.open_rating_sum += Number(player['rating']);
       team.num_open += 1;
+      team.unique_open.add(player['club_team']);
     } else if (player['division'] == 'mixed') {
       team.mixed_rating_sum += Number(player['rating']);
       team.num_mixed += 1;
+      team.unique_mixed.add(player['club_team']);
     } else {
       team.num_non_club += 1;
     }
@@ -155,6 +159,45 @@ function ratingBar(team_stats){
   };
 }
 
+function ratingUniqueScatter(team_stats) {
+  // todo: add team labels on hover or always
+  var open_points = Object.entries(team_stats).map((o) => {
+    return {x: o[1].unique_open.size,
+     y: o[1].open_rating_mean,
+     label: o[0]
+    }
+  })
+  var mixed_points = Object.entries(team_stats).map((o) => {
+    return {x: o[1].unique_mixed.size,
+     y: o[1].mixed_rating_mean,
+     label: o[0]
+    }
+  })
+  console.log(open_points)
+  const data = {
+    datasets: [{
+      label: 'Open Ratings',
+      data: open_points,
+    },
+    {
+      label: 'Mixed Ratings',
+      data: mixed_points,
+    }],
+  };
+  return {
+    type: 'scatter',
+    data: data,
+    options: {
+      scales: {
+        x: {
+          type: 'linear',
+          position: 'bottom'
+        }
+      },
+    }
+  };
+}
+
 export default function Home() {
   useEffect(() => {
     
@@ -168,10 +211,16 @@ export default function Home() {
 
     var ctx = document.getElementById('ratingChart').getContext('2d');
     var ratingChart = new Chart(ctx, ratingBar(team_stats));
+
+    var ctx = document.getElementById('ratingUniqueChart').getContext('2d');
+    var ratingUniqueChart = new Chart(ctx, ratingUniqueScatter(team_stats));
+
+    
     return () => {
-      participationChart.destroy()
-      uniqueClubsChart.destroy()
-      ratingChart.destroy()
+      participationChart.destroy();
+      uniqueClubsChart.destroy();
+      ratingChart.destroy();
+      ratingUniqueChart.destroy();
     }
 
   }, [])
@@ -181,6 +230,7 @@ export default function Home() {
       <canvas id='participationChart'></canvas>
       <canvas id='uniqueClubsChart'></canvas>
       <canvas id='ratingChart'></canvas>
+      <canvas id='ratingUniqueChart'></canvas>
     </main>
   );
 }
