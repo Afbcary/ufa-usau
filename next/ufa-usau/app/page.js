@@ -173,8 +173,10 @@ function ratingUniqueScatter(team_stats) {
      label: o[0]
     }
   })
+  let labels = mixed_points.map(s => s[0]);
   console.log(open_points)
   const data = {
+    labels: labels,
     datasets: [{
       label: 'Open Ratings',
       data: open_points,
@@ -194,6 +196,15 @@ function ratingUniqueScatter(team_stats) {
           position: 'bottom'
         }
       },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.dataset.data[context.dataIndex].label + '\nunique clubs:' +  context.dataset.data[context.dataIndex].x  + '\nmean rating:' +  context.dataset.data[context.dataIndex].y;
+            }
+          }
+        }
+      }
     }
   };
 }
