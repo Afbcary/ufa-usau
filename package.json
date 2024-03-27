@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "static_start": "npx serve@latest out",
     "lint": "next lint",
     "convert_to_json": "csvtojson ../../data/combined_data.csv > public/combined.json"
   },

@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react'
 import { Chart } from 'chart.js/auto';
-import players from "ufa-usau/combined.json"
+import players from "../pages/combined.json"
 
 function calcTeamStats(players) {
   // {"first_name":"Trip","last_name":"Crowley","ufa_team":"hustle","club_team":"space cowboys","division":"open","rank":"85.0","rating":"1312.3"},
