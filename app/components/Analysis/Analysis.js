@@ -1,51 +1,8 @@
 import { useEffect } from "react";
 import { Chart } from 'chart.js/auto';
 import players from "../../../pages/combined.json"
-
-function calcTeamStats(players) {
-    // {"first_name":"Trip","last_name":"Crowley","ufa_team":"hustle","club_team":"space cowboys","division":"open","rank":"85.0","rating":"1312.3"},
-    const team_stats = {};
-    for (let player of players) {
-        if (!player['ufa_team']) {
-            continue;
-        }
-        if (!Object.hasOwn(team_stats, player['ufa_team'])) {
-            team_stats[player['ufa_team']] = {
-                name: player['ufa_team'],
-                num_open: 0,
-                open_rating_sum: 0,
-                open_rating_mean: 0,
-                num_mixed: 0,
-                mixed_rating_sum: 0,
-                mixed_rating_mean: 0,
-                num_non_club: 0,
-                unique_clubs: new Set(),
-                unique_open: new Set(),
-                unique_mixed: new Set()
-            };
-        }
-        let team = team_stats[player['ufa_team']];
-        if (player['division'] == 'open') {
-            team.open_rating_sum += Number(player['rating']);
-            team.num_open += 1;
-            team.unique_open.add(player['club_team']);
-        } else if (player['division'] == 'mixed') {
-            team.mixed_rating_sum += Number(player['rating']);
-            team.num_mixed += 1;
-            team.unique_mixed.add(player['club_team']);
-        } else {
-            team.num_non_club += 1;
-        }
-        if (player['club_team']) {
-            team.unique_clubs.add(player['club_team']);
-        }
-    }
-    for (let [_, stats] of Object.entries(team_stats)) {
-        stats.open_rating_mean = stats.open_rating_sum / stats.num_open;
-        stats.mixed_rating_mean = stats.mixed_rating_sum / stats.num_mixed;
-    }
-    return team_stats;
-}
+import { calcTeamStats } from "./Charts/aggregation"
+import WrappedChart from "./Charts/WrappedChart";
 
 function compareParticipation(s1, s2) {
     let o1 = s1[1];
@@ -210,43 +167,41 @@ function ratingUniqueScatter(team_stats) {
 }
 
 export default function Analysis() {
-    useEffect(() => {
+    var team_stats = calcTeamStats(players);
 
-        var team_stats = calcTeamStats(players);
-
-
-        var ctx = document.getElementById('participationChart').getContext('2d');
-        var participationChart = new Chart(ctx, participationBar(team_stats));
-
-        var ctx = document.getElementById('uniqueClubsChart').getContext('2d');
-        var uniqueClubsChart = new Chart(ctx, uniqueClubsBar(team_stats));
-
-        var ctx = document.getElementById('ratingChart').getContext('2d');
-        var ratingChart = new Chart(ctx, ratingBar(team_stats));
-
-        var ctx = document.getElementById('ratingUniqueChart').getContext('2d');
-        var ratingUniqueChart = new Chart(ctx, ratingUniqueScatter(team_stats));
+    // useEffect(() => {
 
 
-        return () => {
-            participationChart.destroy();
-            uniqueClubsChart.destroy();
-            ratingChart.destroy();
-            ratingUniqueChart.destroy();
-        }
+    //     var ctx = document.getElementById('participationChart').getContext('2d');
+    //     var participationChart = new Chart(ctx, participationBar(team_stats));
 
-    }, [])
+    //     var ctx = document.getElementById('uniqueClubsChart').getContext('2d');
+    //     var uniqueClubsChart = new Chart(ctx, uniqueClubsBar(team_stats));
+
+    //     var ctx = document.getElementById('ratingChart').getContext('2d');
+    //     var ratingChart = new Chart(ctx, ratingBar(team_stats));
+
+    //     var ctx = document.getElementById('ratingUniqueChart').getContext('2d');
+    //     var ratingUniqueChart = new Chart(ctx, ratingUniqueScatter(team_stats));
+
+
+    //     return () => {
+    //         participationChart.destroy();
+    //         uniqueClubsChart.destroy();
+    //         ratingChart.destroy();
+    //         ratingUniqueChart.destroy();
+    //     }
+
+    // }, [])
 
     return (
         <section id="analysis">
             <div className="container">
-                <h3>Things I Can Do</h3>
-                <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
-                    Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
-                <canvas id='participationChart'></canvas>
-                <canvas id='uniqueClubsChart'></canvas>
-                <canvas id='ratingChart'></canvas>
-                <canvas id='ratingUniqueChart'></canvas>
+                <WrappedChart title='Club Participation by UFA Team' chartConfig={participationBar(team_stats)}/>
+                <WrappedChart title='Unique Club Teams by UFA Team' chartConfig={uniqueClubsBar(team_stats)}/>
+                <WrappedChart title='Average USAU Team Rating by UFA Team' chartConfig={ratingBar(team_stats)}/>
+                <WrappedChart title='UFA Team Average Ranking vs Unique USAU Clubs' chartConfig={ratingUniqueScatter(team_stats)}/> 
+                {/* TODO: Consider pre-aggregating data*/}
             </div>
         </section>
     )

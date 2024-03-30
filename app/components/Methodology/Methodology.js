@@ -3,27 +3,41 @@ export default function Methodology() {
         <section id="methodology">
             <div className="container">
                 <h3>Methodology</h3>
-                <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
-                    Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+                <p>This project had four major components: data gathering, data cleaning, deploying as a static website, and analysis.</p>
                 <div className="features">
                     <article>
                         <div className="inner">
-                            <h4>Club Team Roster Determination</h4>
-                            <p>Participated in series (sectionals, regionals, nationals)</p>
+                            <h4>Data Gathering</h4>
+                            <p>UFA</p>
+                            <p>USAU - ulti-verse.com SQLLite database snapshot</p>
+                            <p>USAU - frisbee-rankings.com</p>
+                            <p>Club Team Roster Determination - Participated in series (sectionals, regionals, nationals, Club Champs)</p>
+                            <p>We didn't worry about efficiency at all due to the small size of the total data used, so we used Python.</p>
+                            <p>Scraping with Beautiful Soup</p>
                         </div>
                     </article>
                     <article>
                         <div className="inner">
-                            <h4>Terraformed a small moon</h4>
-                            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus
-                                integer adipiscing ornare amet.</p>
+                            <h4>Data Cleaning</h4>
+                            <p>Pandas for SQL-like functionality</p>
+                            <p>Nickname matching</p>
+                            <p>Teams with the same name.  Mischief, Hazard, and Scoop</p>
+                            <p>Players with the same name.</p>
                         </div>
                     </article>
                     <article>
                         <div className="inner">
-                            <h4>Snapped dark matter in the wild</h4>
-                            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus
-                                integer adipiscing ornare amet.</p>
+                            <h4>Deploying</h4>
+                            <p>Static site with Next.js (React)</p>
+                            <p>Hosted with Github pages</p>
+                            <p>Automated build and deploy with <a href="https://github.com/gregrickaby/nextjs-github-pages">nextjs.github.pages</a></p>
+                            <p></p>
+                        </div>
+                    </article>
+                    <article>
+                        <div className="inner">
+                            <h4>Analysis</h4>
+                            <p>Chart.js for reactive charts</p>
                         </div>
                     </article>
                 </div>
