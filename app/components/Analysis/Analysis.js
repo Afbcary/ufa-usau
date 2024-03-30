@@ -200,7 +200,7 @@ export default function Analysis() {
                 <WrappedChart title='Club Participation by UFA Team' chartConfig={participationBar(team_stats)}/>
                 <WrappedChart title='Unique Club Teams by UFA Team' chartConfig={uniqueClubsBar(team_stats)}/>
                 <WrappedChart title='Average USAU Team Rating by UFA Team' chartConfig={ratingBar(team_stats)}/>
-                <WrappedChart title='UFA Team Average Ranking vs Unique USAU Clubs' chartConfig={ratingUniqueScatter(team_stats)}/> 
+                <WrappedChart title='UFA Team Average Rating vs Unique USAU Clubs' chartConfig={ratingUniqueScatter(team_stats)}/> 
                 {/* TODO: Consider pre-aggregating data*/}
             </div>
         </section>
