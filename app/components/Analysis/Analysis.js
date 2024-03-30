@@ -239,10 +239,15 @@ export default function Analysis() {
 
     return (
         <section id="analysis">
-            <canvas id='participationChart'></canvas>
-            <canvas id='uniqueClubsChart'></canvas>
-            <canvas id='ratingChart'></canvas>
-            <canvas id='ratingUniqueChart'></canvas>
+            <div className="container">
+                <h3>Things I Can Do</h3>
+                <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
+                    Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+                <canvas id='participationChart'></canvas>
+                <canvas id='uniqueClubsChart'></canvas>
+                <canvas id='ratingChart'></canvas>
+                <canvas id='ratingUniqueChart'></canvas>
+            </div>
         </section>
     )
 }
