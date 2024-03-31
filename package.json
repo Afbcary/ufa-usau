@@ -8,7 +8,7 @@
     "start": "next start",
     "static_start": "npx serve@latest out",
     "lint": "next lint",
-    "convert_to_json": "csvtojson ../../data/combined_data.csv > public/combined.json"
+    "convert_to_json": "csvtojson data/combined_data.csv > pages/combined.json"
   },
   "dependencies": {
     "chart.js": "^4.4.2",
