@@ -12,7 +12,7 @@ export default function Methodology() {
                             <p>USAU - ulti-verse.com SQLLite database snapshot</p>
                             <p>USAU - frisbee-rankings.com</p>
                             <p>Club Team Roster Determination - Participated in series (sectionals, regionals, nationals, Club Champs)</p>
-                            <p>We didn't worry about efficiency at all due to the small size of the total data used, so we used Python.</p>
+                            <p>{`We didn't worry about efficiency at all due to the small size of the total data used, so we used Python.`}</p>
                             <p>Scraping with Beautiful Soup</p>
                         </div>
                     </article>
