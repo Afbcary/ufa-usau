@@ -10,7 +10,7 @@ export default function WrappedChart(props) {
         return () => {
             chart.destroy();
         }
-    }, [])
+    }, [props])
 
     return (
         <div>

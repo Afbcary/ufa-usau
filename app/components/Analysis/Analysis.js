@@ -169,31 +169,6 @@ function ratingUniqueScatter(team_stats) {
 export default function Analysis() {
     var team_stats = calcTeamStats(players);
 
-    // useEffect(() => {
-
-
-    //     var ctx = document.getElementById('participationChart').getContext('2d');
-    //     var participationChart = new Chart(ctx, participationBar(team_stats));
-
-    //     var ctx = document.getElementById('uniqueClubsChart').getContext('2d');
-    //     var uniqueClubsChart = new Chart(ctx, uniqueClubsBar(team_stats));
-
-    //     var ctx = document.getElementById('ratingChart').getContext('2d');
-    //     var ratingChart = new Chart(ctx, ratingBar(team_stats));
-
-    //     var ctx = document.getElementById('ratingUniqueChart').getContext('2d');
-    //     var ratingUniqueChart = new Chart(ctx, ratingUniqueScatter(team_stats));
-
-
-    //     return () => {
-    //         participationChart.destroy();
-    //         uniqueClubsChart.destroy();
-    //         ratingChart.destroy();
-    //         ratingUniqueChart.destroy();
-    //     }
-
-    // }, [])
-
     return (
         <section id="analysis">
             <div className="container">

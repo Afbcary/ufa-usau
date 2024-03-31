@@ -6,7 +6,11 @@ export default function Motivation() {
                     <h2>2024 UFA Roster Analysis</h2>
                     <p>Anticipating 2024 UFA teams based on 2023 USAU club participation</p>
                 </header>
-                <p>Ultimate media often discussed the club and UFA divisions exclusively.</p>
+                <p>
+                    Ultimate media often discusses the club and UFA divisions exclusively.
+                    Commentators will hint that the DC Breeze or Colorado Summit have high
+                    ceilings without referencing Johnny Bravo and Truck Stop winning club nationals.
+                </p>
             </div>
         </section>
     )
