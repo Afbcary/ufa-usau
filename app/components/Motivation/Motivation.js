@@ -10,6 +10,8 @@ export default function Motivation() {
                     Ultimate media often discusses the club and UFA divisions exclusively.
                     Commentators will hint that the DC Breeze or Colorado Summit have high
                     ceilings without referencing Johnny Bravo and Truck Stop winning club nationals.
+                    This project links USAU and UFA datasets to examine how UFA players participate in
+                    the club division. 
                 </p>
             </div>
         </section>

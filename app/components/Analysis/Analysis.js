@@ -7,9 +7,7 @@ import WrappedChart from "./Charts/WrappedChart";
 function compareParticipation(s1, s2) {
     let o1 = s1[1];
     let o2 = s2[1];
-    if (o1.num_open > o2.num_open) {
-        return 1;
-    } else if (o1.num_open == o2.num_open && o1.num_mixed > o2.num_mixed) {
+    if (o1.num_open + o1.num_mixed > o2.num_open + o2.num_mixed) {
         return 1;
     }
     return -1;
@@ -81,17 +79,29 @@ function uniqueClubsBar(team_stats) {
     };
 }
 
-function ratingBar(team_stats) {
-    let sorted = Object.entries(team_stats).sort((s1, s2) => s1[1].open_rating_mean > s2[1].open_rating_mean ? 1 : -1);
+function compareMixedRating(s1, s2) {
+    let o1 = s1[1];
+    let o2 = s2[1];
+    if (!o1.mixed_rating_mean) {
+        return -1;
+    }
+    if (!o2.mixed_rating_mean) {
+        return 1;
+    }
+    if (o1.mixed_rating_mean > o2.mixed_rating_mean) {
+        return 1;
+    }
+    return -1;
+}
+
+function ratingBarMixed(team_stats) {
+    let sorted = Object.entries(team_stats).sort(compareMixedRating);
     let labels = sorted.map(s => s[0]);
     let stats = sorted.map(s => s[1]);
+    console.log(stats)
     const data = {
         labels: labels,
         datasets: [{
-            label: 'Open Rating Mean',
-            data: stats.map(s => (s.open_rating_mean)),
-            borderWidth: 1
-        }, {
             label: 'Mixed Rating Mean',
             data: stats.map(s => (s.mixed_rating_mean)),
             borderWidth: 1
@@ -104,10 +114,31 @@ function ratingBar(team_stats) {
             scales: {
                 y: {
                     beginAtZero: true,
-                    stacked: true
                 },
-                x: {
-                    stacked: true
+            }
+        },
+    };
+}
+
+function ratingBarMen(team_stats) {
+    let sorted = Object.entries(team_stats).sort((s1, s2) => s1[1].open_rating_mean > s2[1].open_rating_mean ? 1 : -1);
+    let labels = sorted.map(s => s[0]);
+    let stats = sorted.map(s => s[1]);
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Open Rating Mean',
+            data: stats.map(s => (s.open_rating_mean)),
+            borderWidth: 1
+        }]
+    };
+    return {
+        type: 'bar',
+        data: data,
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
                 }
             }
         },
@@ -131,7 +162,6 @@ function ratingUniqueScatter(team_stats) {
         }
     })
     let labels = mixed_points.map(s => s[0]);
-    console.log(open_points)
     const data = {
         labels: labels,
         datasets: [{
@@ -174,9 +204,11 @@ export default function Analysis() {
             <div className="container">
                 <WrappedChart title='Club Participation by UFA Team' chartConfig={participationBar(team_stats)}/>
                 <WrappedChart title='Unique Club Teams by UFA Team' chartConfig={uniqueClubsBar(team_stats)}/>
-                <WrappedChart title='Average USAU Team Rating by UFA Team' chartConfig={ratingBar(team_stats)}/>
+                <WrappedChart title='Open - Average USAU Team Rating by UFA Team' chartConfig={ratingBarMen(team_stats)}/>
+                <WrappedChart title='Mixed - Average USAU Team Rating by UFA Team' chartConfig={ratingBarMixed(team_stats)}/>
                 <WrappedChart title='UFA Team Average Rating vs Unique USAU Clubs' chartConfig={ratingUniqueScatter(team_stats)}/> 
                 {/* TODO: Consider pre-aggregating data*/}
+                {/* TODO: Could color the bars the same as team colors */}
             </div>
         </section>
     )
