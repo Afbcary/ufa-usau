@@ -6,45 +6,55 @@ dirname = os.path.dirname(__file__).replace("scripts/club","")
 con = sqlite3.connect(f'{dirname}/data/ultiverse/ultiverse.db')
 
 teams_query = """
-    WITH team_rosters AS (
-        SELECT DISTINCT
-            t.name,
-            r.team_slug,
-            CASE WHEN t.gender = 0 THEN 'open'
-                ELSE 'mixed'
-                END AS division,
-            r.id AS roster_id
-        FROM teams t
-        JOIN rosters r
-            ON t.id = r.team_id
-        JOIN tournaments tn
-            ON tn.id = r.tournament_id
-        WHERE 
-            1 = 1
-            AND t.division = 1
-            AND t.gender < 2
-            AND (tn.slug LIKE '%2023%sectional%' 
-                OR tn.slug LIKE '%2023%regional%'
-                OR tn.slug = '2023-usa-ultimate-club-championships-open')
-    )
-    SELECT DISTINCT
-        CASE WHEN LOWER(t.name) = 'lax' THEN 'lax-senior'
-            WHEN LOWER(t.name) = 'dark star' THEN 'dark star-d'
-            ELSE LOWER(t.name)
-            END AS club_team,
-        t.division,
-        p.first_name,
-        p.last_name,
+    WITH team_tournament_rosters AS (
+      SELECT
+        people.id,
+        people.first_name,
+        people.last_name,
+        people.slug,
+        teams.name,
+        teams.slug AS team_slug,
         CASE 
-            WHEN REPLACE(p.slug,'--','-') LIKE '%-' THEN SUBSTR(REPLACE(p.slug,'--','-'), 1, LENGTH(REPLACE(p.slug,'--','-')) - 1)
-            ELSE REPLACE(p.slug,'--','-')
-        END AS player_slug
-    FROM team_rosters t
-    JOIN person_rosters pr
-        ON t.roster_id = pr.roster_id
-        AND role = 'player'
-    JOIN people p
-        ON pr.person_id = p.id;
+          WHEN teams.gender = 0 
+          THEN 'open'
+          ELSE 'mixed'
+        END AS division,
+        rosters.id AS roster_id,
+        tournaments.date
+      FROM teams
+      LEFT JOIN rosters
+        ON teams.id = rosters.team_id
+      LEFT JOIN tournaments
+        ON tournaments.id = rosters.tournament_id
+      LEFT JOIN person_rosters 
+        ON person_rosters.roster_id = rosters.id AND role = 'player'
+      LEFT JOIN people
+              ON person_rosters.person_id = people.id
+      WHERE 
+        (teams.gender = 0 OR teams.gender = 1)
+        AND teams.division = 1
+        AND date >= '2023-03-01'
+    ) SELECT
+          id,
+          first_name,
+          last_name,
+          slug as player_slug,
+          CASE WHEN LOWER(name) = 'lax' THEN 'lax-senior'
+            WHEN LOWER(name) = 'dark star' THEN 'dark star-d'
+            ELSE LOWER(name)
+            END AS club_team,
+          team_slug,
+          division,
+          date,
+          roster_id,
+          date
+        FROM (
+            SELECT 
+              *,
+              ROW_NUMBER() OVER (PARTITION BY slug ORDER BY date DESC) AS row_num 
+            FROM team_tournament_rosters
+        ) AS date_ordered_data
+        WHERE row_num = 1
 """
 
 teams_df = pd.read_sql_query(teams_query, con)

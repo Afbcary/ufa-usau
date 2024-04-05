@@ -95,10 +95,9 @@ function compareMixedRating(s1, s2) {
 }
 
 function ratingBarMixed(team_stats) {
-    let sorted = Object.entries(team_stats).sort(compareMixedRating);
+    let sorted = Object.entries(team_stats).filter(s => s[1].num_mixed >= 4).sort(compareMixedRating);
     let labels = sorted.map(s => s[0]);
     let stats = sorted.map(s => s[1]);
-    console.log(stats)
     const data = {
         labels: labels,
         datasets: [{
@@ -211,6 +210,7 @@ export default function Analysis() {
                 <WrappedChart title='Unique Club Teams by UFA Team' chartConfig={uniqueClubsBar(team_stats)}/>
                 <WrappedChart title='Open - Average USAU Team Rating by UFA Team' chartConfig={ratingBarMen(team_stats)}/>
                 <WrappedChart title='Mixed - Average USAU Team Rating by UFA Team' chartConfig={ratingBarMixed(team_stats)}/>
+                <p>Only UFA teams with four or more players on mixed teams are included.</p>
                 <WrappedChart title='UFA Team Average Rating vs Unique USAU Clubs' chartConfig={ratingUniqueScatter(team_stats)}/> 
                 {/* TODO: Consider pre-aggregating data*/}
                 {/* TODO: Could color the bars the same as team colors */}

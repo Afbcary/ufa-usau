@@ -7,10 +7,11 @@ To query the ulti-verse.com data you'll need to ask for a dump of their SQLLite 
 The data gathering scripts are written in Python. You'll need Python and pip installed.
 
 1. `$ pip install`
-1. `$ python /scripts/club/extract_club_data.py`
-1. `$ python /scripts/frisbee_rankings/scrape.py`
-1. `$ python /scripts/ufa_rosters/scrape.py`
-1. `$ python /scripts/combine_sources/combine_sources.py`
+1. `$ python scripts/club/extract_club_data.py`
+1. `$ python scripts/frisbee_rankings/scrape.py`
+1. `$ python scripts/ufa_rosters/scrape.py`
+1. `$ python scripts/combine_sources/combine_sources.py`
+1. `$ npm run convert_to_json`
 1. Data is output to the /data dir
 
 

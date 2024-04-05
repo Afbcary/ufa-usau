@@ -21,11 +21,11 @@ function calcTeamStats(players) {
             };
         }
         let team = team_stats[player['ufa_team']];
-        if (player['division'] == 'open') {
+        if (player['division'] == 'open' && player['rating']) {
             team.open_rating_sum += Number(player['rating']);
             team.num_open += 1;
             team.unique_open.add(player['club_team']);
-        } else if (player['division'] == 'mixed') {
+        } else if (player['division'] == 'mixed' && player['rating']) {
             team.mixed_rating_sum += Number(player['rating']);
             team.num_mixed += 1;
             team.unique_mixed.add(player['club_team']);
