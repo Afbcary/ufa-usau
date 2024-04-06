@@ -9,7 +9,10 @@ export default function Acknowledgements() {
                     <li>UFA rosters from <a href="https://watchufa.com">https://watchufa.com/</a></li>
                     <li>USA Ultimate Club Rankings from <a href="https://www.frisbee-rankings.com/">https://www.frisbee-rankings.com/</a>,  created by Cody Mills</li>
                 </ul>
-                <h4 id="creators">Creators</h4>
+                <div id="creators">
+                    <h4>Creators</h4>
+                    <p>Austin and Lauren Cary</p>
+                </div>
             </div>
         </section>
     )
