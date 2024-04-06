@@ -2687,7 +2687,7 @@ table.alt tfoot {
 
   /* Basic */
   #creators {
-    backface-visibility: hidden;
+    display: none;
   }
 
   body,
@@ -2732,7 +2732,7 @@ table.alt tfoot {
   /* Basic */
 
   #creators {
-    backface-visibility: hidden;
+    display: none;
   }
 
   body,
