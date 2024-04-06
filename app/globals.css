@@ -2763,6 +2763,9 @@ table.alt tfoot {
 }
 
 @media screen and (max-width: 1024px) {
+  #creators {
+      display: block;
+    }
 
   /* Basic */
 
@@ -2924,6 +2927,9 @@ table.alt tfoot {
 /* Small */
 
 @media screen and (max-width: 736px) {
+  #creators {
+      display: block;
+    }
 
   /* Basic */
 
@@ -3057,6 +3063,9 @@ table.alt tfoot {
 /* XSmall */
 
 @media screen and (max-width: 480px) {
+  #creators {
+      display: block;
+    }
 
   /* Basic */
 
