@@ -226,7 +226,7 @@ i {
 }
 
 p {
-  margin: 0 0 2.25em 0;
+  margin: 0 0 1em 0;
 }
 
 h1,
@@ -2686,6 +2686,9 @@ table.alt tfoot {
 @media screen and (max-width: 1680px) {
 
   /* Basic */
+  #creators {
+    backface-visibility: hidden;
+  }
 
   body,
   input,
@@ -2727,6 +2730,10 @@ table.alt tfoot {
 @media screen and (max-width: 1280px) {
 
   /* Basic */
+
+  #creators {
+    backface-visibility: hidden;
+  }
 
   body,
   input,
