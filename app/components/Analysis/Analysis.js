@@ -202,10 +202,10 @@ export default function Analysis() {
         <section id="analysis">
             <div className="container">
                 <WrappedChart title='Club Participation by UFA Team' chartConfig={participationBar(team_stats)}/>
-                <p>Many people don\'t play club at the beginning or end of their career.
-                   The Rush have a cohort that play for U24 Team Canada but didn\'t play club in 2023.
+                <p>{`Many people don't play club at the beginning or end of their career.
+                   The Rush have a cohort that play for U24 Team Canada but didn't play club in 2023.
                    Old dogs may get injured if they try to play both divisions. The UFA format is friendlier to league
-                   veterans because it doesn't demand so many games in a single weekend. 
+                   veterans because it doesn't demand so many games in a single weekend.`}
                 </p>
                 <WrappedChart title='Unique Club Teams by UFA Team' chartConfig={uniqueClubsBar(team_stats)}/>
                 <WrappedChart title='Open - Average USAU Team Rating by UFA Team' chartConfig={ratingBarMen(team_stats)}/>
