@@ -13,7 +13,7 @@ export default function WrappedChart(props) {
     }, [props])
 
     return (
-        <div>
+        <div style={{paddingTop: '5rem'}}>
             <h2>{props.title}</h2>
             <canvas id={id}></canvas>
         </div>

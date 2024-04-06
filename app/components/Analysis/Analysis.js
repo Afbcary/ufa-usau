@@ -1,7 +1,6 @@
-import { useEffect } from "react";
-import { Chart } from 'chart.js/auto';
 import players from "../../../pages/combined.json"
 import { calcTeamStats } from "./Charts/aggregation"
+import { topClubStats } from "./Charts/club_oriented_aggregation"
 import WrappedChart from "./Charts/WrappedChart";
 
 function compareParticipation(s1, s2) {
@@ -13,7 +12,7 @@ function compareParticipation(s1, s2) {
     return -1;
 }
 
-function participationBar(team_stats) {
+function clubParticipationBar(team_stats) {
     let sorted = Object.entries(team_stats).sort(compareParticipation);
     let labels = sorted.map(s => s[0]);
     let stats = sorted.map(s => s[1]);
@@ -30,6 +29,39 @@ function participationBar(team_stats) {
         }, {
             label: 'Didn\'t play club',
             data: stats.map(s => (s.num_non_club)),
+            borderWidth: 1
+        }]
+    };
+    return {
+        type: 'bar',
+        data: data,
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    stacked: true
+                },
+                x: {
+                    stacked: true
+                }
+            }
+        },
+    };
+}
+
+function ufaParticipationBar(team_stats) {
+    let sorted = Object.entries(team_stats).sort((s1,s2) => s1[1].rank > s2[1].rank ? 1 : -1);
+    let labels = sorted.map(s => `${s[1].rank}. ${s[0]}`);
+    let stats = sorted.map(s => s[1]);
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Played UFA',
+            data: stats.map(s => (s.num_ufa)),
+            borderWidth: 1
+        }, {
+            label: 'Didn\'t play UFA',
+            data: stats.map(s => (s.num_non_ufa)),
             borderWidth: 1
         }]
     };
@@ -145,7 +177,6 @@ function ratingBarMen(team_stats) {
 }
 
 function ratingUniqueScatter(team_stats) {
-    // todo: add team labels on hover or always
     var open_points = Object.entries(team_stats).map((o) => {
         return {
             x: o[1].unique_open.size,
@@ -195,23 +226,73 @@ function ratingUniqueScatter(team_stats) {
     };
 }
 
+function ratingVsPowerRankingBar(team_stats) {
+    let sorted = Object.entries(team_stats).sort((s1, s2) => s1[1].power_ranking > s2[1].power_ranking ? 1 : -1);
+    let labels = sorted.map(s => `${s[1].power_ranking}. ${s[0]}`);
+    let stats = sorted.map(s => s[1]);
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Open Rating Mean',
+            data: stats.map(s => (s.open_rating_mean)),
+            borderWidth: 1
+        }]
+    };
+    return {
+        type: 'bar',
+        data: data,
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        },
+    };
+}
+
 export default function Analysis() {
     var team_stats = calcTeamStats(players);
+    var top_club_stats = topClubStats(players);
 
     return (
         <section id="analysis">
             <div className="container">
-                <WrappedChart title='Club Participation by UFA Team' chartConfig={participationBar(team_stats)}/>
+                <WrappedChart title='Club Participation by UFA Team' chartConfig={clubParticipationBar(team_stats)} />
                 <p>{`Many people don't play club at the beginning or end of their career.
                    The Rush have a cohort that play for U24 Team Canada but didn't play club in 2023.
                    Old dogs may get injured if they try to play both divisions. The UFA format is friendlier to league
                    veterans because it doesn't demand so many games in a single weekend.`}
                 </p>
-                <WrappedChart title='Unique Club Teams by UFA Team' chartConfig={uniqueClubsBar(team_stats)}/>
-                <WrappedChart title='Open - Average USAU Team Rating by UFA Team' chartConfig={ratingBarMen(team_stats)}/>
-                <WrappedChart title='Mixed - Average USAU Team Rating by UFA Team' chartConfig={ratingBarMixed(team_stats)}/>
+                <p>{`There isn't a clear story relating club participation to UFA success.`}</p>
+                <WrappedChart title='UFA Participation of Top Open Club Teams' chartConfig={ufaParticipationBar(top_club_stats)} />
+                <p>{`Over time, the top teams in both open club and UFA increasingly share the same core star players.
+                   Top UFA teams sometimes draw from multiple elite open teams. For example, the Breeze have Truck Stop and Vault players;
+                   RDU and Ring of Fire play for the Flyers.`}</p>
+                <p>{`The northwest still resists the UFA.
+                   Driving up the west coast, the UFA lacks the majority of the talented players on San Fransisco Revolver, Portland Rhino Slam!, Seattle Sockeye, and Vancouver Furious George.
+                   Any team that could harness this latent power source could surge to UFA Glory.`}</p>
+                <WrappedChart title='Unique Club Teams by UFA Team' chartConfig={uniqueClubsBar(team_stats)} />
+                <WrappedChart title='Open - Average USAU Team Rating by UFA Team' chartConfig={ratingBarMen(team_stats)} />
+                <WrappedChart title='Mixed - Average USAU Team Rating by UFA Team' chartConfig={ratingBarMixed(team_stats)} />
                 <p>Only UFA teams with four or more players on mixed teams are included.</p>
-                <WrappedChart title='UFA Team Average Rating vs Unique USAU Clubs' chartConfig={ratingUniqueScatter(team_stats)}/> 
+                <WrappedChart title='UFA Team Average Rating vs Unique USAU Clubs' chartConfig={ratingUniqueScatter(team_stats)} />
+                <WrappedChart title='UFA Power Ranking vs Club Ratings Bar' chartConfig={ratingVsPowerRankingBar(team_stats)} />
+                <p>These power rankings come from 
+                    <a href='https://watchufa.com/league/power-rankings/2024-ufa-way-too-early-preseason'> UFA Power ranking: Way too early 2024 by Adam Ruffner</a>
+                </p>
+
+                <p>{`The Shred overperform their club rating. Given the Shred's finals appearance last year,
+                   Adam has high expectations for this team in 2024. Coach of the year Bryce Merrill leads
+                   a bought in team. Many of their players don't play club, nor do they play on Sundays because
+                   of their Mormon values. In fact, the team has zero games scheduled on Sundays this season.`}
+                </p>
+                <p>{`Several teams show their potential to rise to the next level: Breeze, Flyers, Summit, Glory, and Spiders.`}</p>
+
+                <p>{`At the bottom, the Nitro and Royal underperform in the UFA. Both teams suffered from spotty attendance from their stars.
+                   In Portland, community leaders like Dylan Freechild still have their doubts about the UFA enterprise.`}
+                </p>
+
                 {/* TODO: Consider pre-aggregating data*/}
                 {/* TODO: Could color the bars the same as team colors */}
             </div>

@@ -13,7 +13,7 @@ nicknames_df = pd.read_csv(f'{dirname}/data/nicknames.csv', names=['id','fullgiv
 
 rankings_df = pd.concat([men_rankings_df, mixed_rankings_df])
 
-combined_df = ufa_df.merge(club_df[['club_team','player_slug','division']], on=['player_slug'], how='left')
+combined_df = ufa_df.merge(club_df[['club_team','player_slug','division']], on=['player_slug'], how='outer')
 combined_df = combined_df.merge(rankings_df, on=['club_team','division'], how='left')
 
 
@@ -53,4 +53,3 @@ combined_df['rating'] = np.where(combined_df['rating_x'].isnull(), combined_df['
 combined_df['division'] = np.where(combined_df['division_x'].isnull(), combined_df['division_y'], combined_df['division_x'])
 
 combined_df[['first_name','last_name','ufa_team','club_team','division','rank','rating']].to_csv(f'{dirname}/data/combined_data.csv', index=False)
-print(f'combined row count: {combined_df.count()}')
