@@ -2,7 +2,7 @@ export default function Methodology() {
     return (
         <section id="methodology">
             <div className="container">
-                <h3>Methodology</h3>
+                <h2>Methodology</h2>
                 <p>This project had four major components: data gathering, data cleaning, deploying as a static website, and analysis.</p>
                 <div className="features">
                     <article>
