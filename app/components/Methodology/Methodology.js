@@ -6,7 +6,7 @@ export default function Methodology() {
                 <p>This project had four major components: data gathering, data cleaning, deploying as a static website, and analysis.</p>
                 <div className="features">
                     <article>
-                        <div className="inner">
+                        <div>
                             <h4>Data Gathering</h4>
                             <p>UFA</p>
                             <p>USAU - ulti-verse.com SQLLite database snapshot</p>
@@ -17,7 +17,7 @@ export default function Methodology() {
                         </div>
                     </article>
                     <article>
-                        <div className="inner">
+                        <div>
                             <h4>Data Cleaning</h4>
                             <p>Pandas for SQL-like functionality</p>
                             <p>Nickname matching</p>
@@ -26,7 +26,7 @@ export default function Methodology() {
                         </div>
                     </article>
                     <article>
-                        <div className="inner">
+                        <div>
                             <h4>Deploying</h4>
                             <p>Static site with Next.js (React)</p>
                             <p>Hosted with Github pages</p>
@@ -36,7 +36,7 @@ export default function Methodology() {
                         </div>
                     </article>
                     <article>
-                        <div className="inner">
+                        <div>
                             <h4>Analysis</h4>
                             <p>Chart.js for reactive charts</p>
                         </div>
