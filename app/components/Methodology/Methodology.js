@@ -27,18 +27,18 @@ export default function Methodology() {
                     </article>
                     <article>
                         <div>
+                            <h4>Analysis</h4>
+                            <p>Chart.js for reactive charts</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div>
                             <h4>Deploying</h4>
                             <p>Static site with Next.js (React)</p>
                             <p>Hosted with Github pages</p>
                             <p>Automated build and deploy with <a href="https://github.com/gregrickaby/nextjs-github-pages">nextjs.github.pages</a></p>
                             <p>The code is open source at <a href="https://github.com/Afbcary/ufa-usau">github.com/Afbcary/ufa-usau</a></p>
                             <p></p>
-                        </div>
-                    </article>
-                    <article>
-                        <div>
-                            <h4>Analysis</h4>
-                            <p>Chart.js for reactive charts</p>
                         </div>
                     </article>
                 </div>
