@@ -25,12 +25,14 @@ export default function Navigation() {
                     ))}
                 </ul>
                 <footer>
-                    <h4>Creators</h4>
+                    <h4>Authors</h4>
                     <p>Austin and Lauren Cary</p>
                     <Image 
-                        src={"/ufa-usau/lauren_and_austin.jpg"}
+                        src={"/lauren_and_austin.jpg"}
                         alt={"Austin and Lauren Cary"}
                         className={'image'}
+                        width={256}
+                        height={277}
                         priority
                     />
                 </footer>

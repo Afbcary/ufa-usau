@@ -10,7 +10,7 @@ export default function Acknowledgements() {
                     <li>USA Ultimate Club Rankings from <a href="https://www.frisbee-rankings.com/">https://www.frisbee-rankings.com/</a>,  created by Cody Mills</li>
                 </ul>
                 <div id="creators">
-                    <h4>Creators</h4>
+                    <h4>Authors</h4>
                     <p>Austin and Lauren Cary</p>
                 </div>
             </div>
