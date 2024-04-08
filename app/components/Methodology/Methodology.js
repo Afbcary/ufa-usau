@@ -26,6 +26,7 @@ export default function Methodology() {
                                 <li>Nickname matching - Some players use different names in UFA vs club. We joined on a dataset of common nicknames to include everyone we could find.</li>
                                 <li>Teams with the same name.  Mischief, Hazard, and Scoop</li>
                                 <li>Players with the same name.</li>
+                                <li>If you see something we missed, email afbcary (at) gmail.</li>
                             </ul>
                         </div>
                     </article>

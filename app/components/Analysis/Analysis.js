@@ -39,10 +39,18 @@ function clubParticipationBar(team_stats) {
             scales: {
                 y: {
                     beginAtZero: true,
-                    stacked: true
+                    stacked: true,
+                    title: {
+                        display: true,
+                        text: 'Number of Players'
+                    }
                 },
                 x: {
-                    stacked: true
+                    stacked: true,
+                    title: {
+                        display: true,
+                        text: 'UFA Team'
+                    }
                 }
             }
         },
@@ -72,10 +80,18 @@ function ufaParticipationBar(team_stats) {
             scales: {
                 y: {
                     beginAtZero: true,
-                    stacked: true
+                    stacked: true,
+                    title: {
+                        display: true,
+                        text: 'Number of Players'
+                    }
                 },
                 x: {
-                    stacked: true
+                    stacked: true,
+                    title: {
+                        display: true,
+                        text: 'Open Club Teams'
+                    }
                 }
             }
         },
@@ -140,9 +156,17 @@ function uniqueClubsBar(team_stats) {
                 y: {
                     beginAtZero: true,
                     stacked: true,
+                    title: {
+                        display: true,
+                        text: 'Number of Players'
+                    }
                 },
                 x: {
                     stacked: true,
+                    title: {
+                        display: true,
+                        text: 'UFA Teams'
+                    }
                 }
             },
             layout: {
@@ -193,7 +217,17 @@ function ratingBarMixed(team_stats) {
             scales: {
                 y: {
                     beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Rating'
+                    }
                 },
+                x: {
+                    title: {
+                        display: true,
+                        text: 'UFA Team'
+                    }
+                }
             }
         },
     };
@@ -217,7 +251,18 @@ function ratingBarMen(team_stats) {
         options: {
             scales: {
                 y: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Number of Players'
+                    }
+                },
+                x: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'UFA Team'
+                    }
                 }
             }
         },
@@ -227,14 +272,14 @@ function ratingBarMen(team_stats) {
 function ratingUniqueScatter(team_stats) {
     var open_points = Object.entries(team_stats).map((o) => {
         return {
-            x: o[1].num_open,
+            x: o[1].unique_open.size,
             y: o[1].open_rating_mean,
             label: o[0]
         }
     })
     var mixed_points = Object.entries(team_stats).map((o) => {
         return {
-            x: o[1].num_mixed,
+            x: o[1].unique_mixed.size,
             y: o[1].mixed_rating_mean,
             label: o[0]
         }
@@ -256,9 +301,19 @@ function ratingUniqueScatter(team_stats) {
         data: data,
         options: {
             scales: {
+                y: {
+                    title: {
+                        display: true,
+                        text: 'Average Rating'
+                    }
+                },
                 x: {
                     type: 'linear',
-                    position: 'bottom'
+                    position: 'bottom',
+                    title: {
+                        display: true,
+                        text: 'Number of Unique Club Teams'
+                    }
                 }
             },
             plugins: {
@@ -292,7 +347,17 @@ function ratingVsPowerRankingBar(team_stats) {
         options: {
             scales: {
                 y: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Club Rating'
+                    }
+                },
+                x: {
+                    title: {
+                        display: true,
+                        text: 'UFA Power Ranking'
+                    }
                 }
             }
         },
@@ -334,7 +399,7 @@ export default function Analysis() {
                 <p>Only UFA teams with four or more players on mixed teams are included.</p>
                 <WrappedChart title='UFA Team Average Rating vs Unique USAU Clubs' chartConfig={ratingUniqueScatter(team_stats)} />
                 <p>{`Do UFA players play for more clubs when there isn't a dominant club team in their vicinity? In open, yes.
-                 In mixed there may not be enough data for any meaningful conclusions.`}</p>
+                 In mixed there may not be enough data for any meaningful conclusions. Hover your mouse on a data point to view the associated UFA team. Click on a dataset in the legend to hide it.`}</p>
                 <WrappedChart title='UFA Power Ranking vs Club Ratings Bar' chartConfig={ratingVsPowerRankingBar(team_stats)} />
                 <p>These power rankings come from 
                     <a href='https://watchufa.com/league/power-rankings/2024-ufa-way-too-early-preseason'> UFA Power ranking: Way too early 2024 by Adam Ruffner</a>
