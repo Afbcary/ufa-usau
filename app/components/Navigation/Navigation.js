@@ -31,8 +31,8 @@ export default function Navigation() {
                     <div className="image-container">
                         <Image
                             //  use /lauren_and_austin.jpg for local dev
-                            src={"/lauren_and_austin.jpg"}
-                            // src={"/ufa-usau/lauren_and_austin.jpg"}
+                            // src={"/lauren_and_austin.jpg"}
+                            src={"/ufa-usau/lauren_and_austin.jpg"}
                             alt={"Austin and Lauren Cary"}
                             className={'image'}
                             fill={true}
