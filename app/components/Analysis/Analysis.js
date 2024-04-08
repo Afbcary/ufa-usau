@@ -1,12 +1,12 @@
 import players from "../../../pages/combined.json"
-import { calcTeamStats } from "./Charts/aggregation"
+import { calcTeamStats, power_rankings } from "./Charts/aggregation"
 import { topClubStats } from "./Charts/club_oriented_aggregation"
 import WrappedChart from "./Charts/WrappedChart";
 
 function compareParticipation(s1, s2) {
     let o1 = s1[1];
     let o2 = s2[1];
-    if (o1.num_open + o1.num_mixed > o2.num_open + o2.num_mixed) {
+    if (o1.unique_open.size + o1.unique_mixed.size > o2.unique_open.size + o2.unique_mixed.size) {
         return 1;
     }
     return -1;
@@ -20,11 +20,11 @@ function clubParticipationBar(team_stats) {
         labels: labels,
         datasets: [{
             label: 'Club Open',
-            data: stats.map(s => (s.num_open)),
+            data: stats.map(s => (s.unique_open.size)),
             borderWidth: 1
         }, {
             label: 'Club Mixed',
-            data: stats.map(s => (s.num_mixed)),
+            data: stats.map(s => (s.unique_mixed.size)),
             borderWidth: 1
         }, {
             label: 'Didn\'t play club',
@@ -83,28 +83,46 @@ function ufaParticipationBar(team_stats) {
 }
 
 function uniqueClubsBar(team_stats) {
-    let sorted = Object.entries(team_stats).sort((s1, s2) => s1[1].unique_clubs.size > s2[1].unique_clubs.size ? 1 : -1);
-    let labels = sorted.map(s => s[0]);
-    let stats = sorted.map(s => s[1]);
+    let usau_datasets = [];
+    for (let [ufa_team_name, stats] of Object.entries(team_stats)) {
+        for (let [usau_team_name, num_players] of stats.unique_open.entries()){
+            let player_counts = Array(24).fill(NaN);
+            player_counts[power_rankings[ufa_team_name] - 1] = num_players;
+            usau_datasets.push({
+                label: usau_team_name,
+                data: player_counts,
+                stack: ufa_team_name,
+            });
+        }
+    }
     const data = {
-        labels: labels,
-        datasets: [{
-            label: 'Unique Clubs',
-            data: stats.map(s => (s.unique_clubs.size)),
-            borderWidth: 1
-        }]
+        labels: Object.keys(power_rankings),
+        datasets: usau_datasets
     };
     return {
         type: 'bar',
         data: data,
         options: {
+            barThickness: 'flex',
+            barPercentage: 1,
+            skipNull: true,
             scales: {
                 y: {
                     beginAtZero: true,
-                    stacked: true
+                    stacked: true,
                 },
                 x: {
-                    stacked: true
+                    stacked: true,
+                }
+            },
+            layout: {
+                padding: 0,
+                autoPadding: true
+
+            },
+            plugins: {
+                legend: {
+                    display: false
                 }
             }
         },
@@ -127,7 +145,7 @@ function compareMixedRating(s1, s2) {
 }
 
 function ratingBarMixed(team_stats) {
-    let sorted = Object.entries(team_stats).filter(s => s[1].num_mixed >= 4).sort(compareMixedRating);
+    let sorted = Object.entries(team_stats).filter(s => s[1].unique_mixed.size >= 4).sort(compareMixedRating);
     let labels = sorted.map(s => s[0]);
     let stats = sorted.map(s => s[1]);
     const data = {
@@ -273,6 +291,7 @@ export default function Analysis() {
                    Driving up the west coast, the UFA lacks the majority of the talented players on San Fransisco Revolver, Portland Rhino Slam!, Seattle Sockeye, and Vancouver Furious George.
                    Any team that could harness this latent power source could surge to UFA Glory.`}</p>
                 <WrappedChart title='Unique Club Teams by UFA Team' chartConfig={uniqueClubsBar(team_stats)} />
+                <p>{``}</p>
                 <WrappedChart title='Open - Average USAU Team Rating by UFA Team' chartConfig={ratingBarMen(team_stats)} />
                 <WrappedChart title='Mixed - Average USAU Team Rating by UFA Team' chartConfig={ratingBarMixed(team_stats)} />
                 <p>Only UFA teams with four or more players on mixed teams are included.</p>

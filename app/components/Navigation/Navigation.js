@@ -27,8 +27,9 @@ export default function Navigation() {
                 <footer>
                     <h4>Authors</h4>
                     <p>Austin and Lauren Cary</p>
-                    <Image 
-                        src={"/lauren_and_austin.jpg"}
+                    <Image
+                        //  use /lauren_and_austin.jpg for local dev
+                        src={"/ufa-usau/lauren_and_austin.jpg"}
                         alt={"Austin and Lauren Cary"}
                         className={'image'}
                         width={256}
