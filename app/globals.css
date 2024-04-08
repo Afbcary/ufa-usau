@@ -2449,8 +2449,11 @@ table.alt tfoot {
   border-top: 0;
 }
 
-.image {
-  padding: 10px;
+.image-container {
+  position: relative;
+  height: 10em;
+  width: 9.7em;
+  border-radius: 25px;
 }
 
 /* Features */
@@ -2684,6 +2687,14 @@ table.alt tfoot {
 
 #creators {
   display: none;
+}
+
+nav>footer {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 

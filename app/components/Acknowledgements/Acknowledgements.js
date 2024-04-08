@@ -12,7 +12,8 @@ export default function Acknowledgements() {
                 </ul>
                 <div id="creators">
                     <h4>Authors</h4>
-                    <p>Austin and Lauren Cary</p>
+                    <p>Written by Austin Cary</p>
+                    <p>Site by Austin & Lauren Cary</p>
                 </div>
             </div>
         </section>
