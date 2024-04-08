@@ -33,8 +33,8 @@ export default function Navigation() {
                         src={"/ufa-usau/lauren_and_austin.jpg"}
                         alt={"Austin and Lauren Cary"}
                         className={'image'}
-                        width={170}
-                        height={196}
+                        objectFit="contain"
+                        layout="fill"
                         priority
                     />
                 </footer>
