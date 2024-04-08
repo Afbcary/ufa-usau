@@ -96,7 +96,7 @@ function uniqueClubsBar(team_stats) {
         }
     }
     const data = {
-        labels: Object.keys(power_rankings),
+        labels: Object.entries(power_rankings).map((e) => `${e[1]}. ${e[0]}`),
         datasets: usau_datasets
     };
     return {
@@ -277,25 +277,34 @@ export default function Analysis() {
         <section id="analysis">
             <div className="container">
                 <WrappedChart title='Club Participation by UFA Team' chartConfig={clubParticipationBar(team_stats)} />
+                <p>{`This shows the number of players on each UFA team that play in each club division. It's ordered by total club participation, ascending.`}</p>
+                <p>{`Huge thanks to Anders Juengst for sharing club data from `}<a href="https://ulti-verse.com/">ulti-verse.com</a></p>
                 <p>{`Many people don't play club at the beginning or end of their career.
                    The Rush have a cohort that play for U24 Team Canada but didn't play club in 2023.
                    Old dogs may get injured if they try to play both divisions. The UFA format is friendlier to league
                    veterans because it doesn't demand so many games in a single weekend.`}
                 </p>
-                <p>{`There isn't a clear story relating club participation to UFA success.`}</p>
+                <p>{`There isn't a clear story relating more club participation to UFA success.`}</p>
                 <WrappedChart title='UFA Participation of Top Open Club Teams' chartConfig={ufaParticipationBar(top_club_stats)} />
-                <p>{`Over time, the top teams in both open club and UFA increasingly share the same core star players.
+                <p>{`For the top 25 teams in 2023 open club, this shows how many of their athletes also suited up for the UFA.`}</p>
+                <p>{`Over time, the top teams in both open club and UFA increasingly share the same core of players.
                    Top UFA teams sometimes draw from multiple elite open teams. For example, the Breeze have Truck Stop and Vault players;
                    RDU and Ring of Fire play for the Flyers.`}</p>
                 <p>{`The northwest still resists the UFA.
-                   Driving up the west coast, the UFA lacks the majority of the talented players on San Fransisco Revolver, Portland Rhino Slam!, Seattle Sockeye, and Vancouver Furious George.
-                   Any team that could harness this latent power source could surge to UFA Glory.`}</p>
+                   Driving up the west coast, the UFA lacks the majority of the talented players on San Fransisco Revolver, Portland Rhino Slam!,
+                   Seattle Sockeye, and Vancouver Furious George.
+                   A team that could harness this latent power source could surge to UFA Glory.`}</p>
                 <WrappedChart title='Unique Club Teams by UFA Team' chartConfig={uniqueClubsBar(team_stats)} />
-                <p>{``}</p>
+                <p>{`This shows the number of players on each club team, stacked by UFA team. It's ordered by Adam Ruffner's 2024 UFA power rankings.`}</p>
+                <p>{`I expected that players with consistent teammates in both divisoins would gain chemistry and play better but this data isn't so clear.`}</p>
                 <WrappedChart title='Open - Average USAU Team Rating by UFA Team' chartConfig={ratingBarMen(team_stats)} />
+                <p>{`This matches expectations with the notable exceptions of the Shred and Nitro. We sourced rating data from 2023 end-year `}
+                <a href="https://frisbee-rankings.com">frisbee-rankings.com.</a></p>
                 <WrappedChart title='Mixed - Average USAU Team Rating by UFA Team' chartConfig={ratingBarMixed(team_stats)} />
                 <p>Only UFA teams with four or more players on mixed teams are included.</p>
                 <WrappedChart title='UFA Team Average Rating vs Unique USAU Clubs' chartConfig={ratingUniqueScatter(team_stats)} />
+                <p>{`Do UFA players play for more clubs when there isn't a dominant club team in their vicinity? In open, yes.
+                 In mixed there may not be enough data for any meaningful conclusions.`}</p>
                 <WrappedChart title='UFA Power Ranking vs Club Ratings Bar' chartConfig={ratingVsPowerRankingBar(team_stats)} />
                 <p>These power rankings come from 
                     <a href='https://watchufa.com/league/power-rankings/2024-ufa-way-too-early-preseason'> UFA Power ranking: Way too early 2024 by Adam Ruffner</a>
@@ -304,7 +313,7 @@ export default function Analysis() {
                 <p>{`The Shred overperform their club rating. Given the Shred's finals appearance last year,
                    Adam has high expectations for this team in 2024. Coach of the year Bryce Merrill leads
                    a bought in team. Many of their players don't play club, nor do they play on Sundays because
-                   of their Mormon values. In fact, the team has zero games scheduled on Sundays this season.`}
+                   of their Mormon beliefs. In fact, the team has zero games scheduled on Sundays this season.`}
                 </p>
                 <p>{`Several teams show their potential to rise to the next level: Breeze, Flyers, Summit, Glory, and Spiders.`}</p>
 
