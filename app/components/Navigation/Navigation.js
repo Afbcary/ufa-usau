@@ -33,8 +33,8 @@ export default function Navigation() {
                         src={"/ufa-usau/lauren_and_austin.jpg"}
                         alt={"Austin and Lauren Cary"}
                         className={'image'}
-                        width={256}
-                        height={277}
+                        width={180}
+                        height={196}
                         priority
                     />
                 </footer>
@@ -42,3 +42,5 @@ export default function Navigation() {
         </section>
     )
 }
+// 2200
+//2400
