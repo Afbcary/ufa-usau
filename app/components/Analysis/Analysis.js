@@ -82,17 +82,47 @@ function ufaParticipationBar(team_stats) {
     };
 }
 
+const backgroundColors = [
+    '#ed6f84',
+    '#f2c8a2',
+    '#edeb80',
+    '#a2e86d',
+    '#3de0c8',
+    '#3d9ce0',
+    '#646fed',
+]
+
+const borderColors = [
+    '#e84661',
+    '#bd8b0b',
+    '#e5e81c',
+    '#5dbf11',
+    '#1d8031',
+    '#1f6e9c',
+    '#1f479c',
+    '#601f9c',
+    '#cf1fcc',
+]
+
 function uniqueClubsBar(team_stats) {
     let usau_datasets = [];
     for (let [ufa_team_name, stats] of Object.entries(team_stats)) {
-        for (let [usau_team_name, num_players] of stats.unique_open.entries()){
+        const unique_club = new Map([...stats.unique_open, ...stats.unique_mixed]);
+        const sorted_club = new Map([...unique_club.entries()].sort( (a, b) => a[1] > b[1] ? -1 : 1));
+
+        let i = 0;
+        for (let [usau_team_name, num_players] of sorted_club.entries()){
             let player_counts = Array(24).fill(NaN);
             player_counts[power_rankings[ufa_team_name] - 1] = num_players;
             usau_datasets.push({
                 label: usau_team_name,
                 data: player_counts,
                 stack: ufa_team_name,
+                backgroundColor: backgroundColors[i % backgroundColors.length],
+                borderColor: borderColors[i % backgroundColors.length],
+                borderWidth: 1
             });
+            i++;
         }
     }
     const data = {
