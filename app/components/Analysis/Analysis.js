@@ -6,7 +6,7 @@ import WrappedChart from "./Charts/WrappedChart";
 function compareParticipation(s1, s2) {
     let o1 = s1[1];
     let o2 = s2[1];
-    if (o1.unique_open.size + o1.unique_mixed.size > o2.unique_open.size + o2.unique_mixed.size) {
+    if (o1.num_open + o1.num_mixed > o2.num_open + o2.num_mixed) {
         return 1;
     }
     return -1;
@@ -20,11 +20,11 @@ function clubParticipationBar(team_stats) {
         labels: labels,
         datasets: [{
             label: 'Club Open',
-            data: stats.map(s => (s.unique_open.size)),
+            data: stats.map(s => (s.num_open)),
             borderWidth: 1
         }, {
             label: 'Club Mixed',
-            data: stats.map(s => (s.unique_mixed.size)),
+            data: stats.map(s => (s.num_mixed)),
             borderWidth: 1
         }, {
             label: 'Didn\'t play club',
@@ -145,7 +145,7 @@ function compareMixedRating(s1, s2) {
 }
 
 function ratingBarMixed(team_stats) {
-    let sorted = Object.entries(team_stats).filter(s => s[1].unique_mixed.size >= 4).sort(compareMixedRating);
+    let sorted = Object.entries(team_stats).filter(s => s[1].num_mixed >= 4).sort(compareMixedRating);
     let labels = sorted.map(s => s[0]);
     let stats = sorted.map(s => s[1]);
     const data = {
@@ -197,14 +197,14 @@ function ratingBarMen(team_stats) {
 function ratingUniqueScatter(team_stats) {
     var open_points = Object.entries(team_stats).map((o) => {
         return {
-            x: o[1].unique_open.size,
+            x: o[1].num_open,
             y: o[1].open_rating_mean,
             label: o[0]
         }
     })
     var mixed_points = Object.entries(team_stats).map((o) => {
         return {
-            x: o[1].unique_mixed.size,
+            x: o[1].num_mixed,
             y: o[1].mixed_rating_mean,
             label: o[0]
         }
