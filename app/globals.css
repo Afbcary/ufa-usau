@@ -2450,8 +2450,7 @@ table.alt tfoot {
 }
 
 .image {
-  height: 12em;
-  border-radius: 25px;
+  padding: 10px;
 }
 
 /* Features */
