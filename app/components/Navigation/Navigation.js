@@ -26,7 +26,8 @@ export default function Navigation() {
                 </ul>
                 <footer>
                     <h4>Authors</h4>
-                    <p>Austin and Lauren Cary</p>
+                    <p>Written by Austin Cary</p>
+                    <p>Site by Austin and Lauren Cary</p>
                     <Image
                         //  use /lauren_and_austin.jpg for local dev
                         src={"/ufa-usau/lauren_and_austin.jpg"}
