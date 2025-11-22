@@ -2,6 +2,8 @@
 ### Analyzing Ultimate's UFA vs USAU data
 Live site: https://afbcary.github.io/ufa-usau/
 
+![Beginning of article](https://github.com/Afbcary/ufa-usau/raw/main/public/screenshot.png)
+
 ## Running Data Gathering Scripts
 To query the ulti-verse.com data you'll need to ask for a dump of their SQLLite database from Anders using https://ulti-verse.com/support.
 
